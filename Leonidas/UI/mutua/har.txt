@@ -1,0 +1,1542 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "132.0"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "132.0"
+    },
+    "pages": [
+      {
+        "id": "page_1",
+        "pageTimings": {
+          "onContentLoad": 2118,
+          "onLoad": 2155
+        },
+        "startedDateTime": "2024-11-13T17:24:30.832+01:00",
+        "title": "https://www.mutua.es/Expedientes/showProcedureTasksList.do"
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2024-11-13T17:24:30.832+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://sso.mutua.es/auth/realms/mutua/protocol/openid-connect/auth?response_type=code&client_id=was-ExpedientesEAR-www.mutua.es&scope=openid%20profile&state=WVnDsRbztqbANJzq8Ft6vNbVlRkyuU4F9szxXWHqM3A_1731514742736&redirect_uri=https%3A%2F%2Fwww.mutua.es%2Foidcclient%2Fwas-ExpedientesEAR-www.mutua.es",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "sso.mutua.es"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Referer",
+              "value": "https://www.mutua.es/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "AUTH_SESSION_ID=54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6; AUTH_SESSION_ID_LEGACY=54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6; KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Puxnwq_3C5AzmUiBO-Y0Mw.w56hQ4a8KI5vAzOP_-GwxDMECqCiD94xsABYf1zuyeYncR3k1-ejbaNMBobuvaP-QDcz232k9YZnWU4CYpZnp5k4PLwja60eYyvnCIpcz6yoA_mpmZuGwGuuoA6XmG-sTUBrpREqtwOdWPV2cWelgo1DVP9Wtgr6hWVpkreijLLVKq0vVkHo_-tcfCDJSZPzVKQGBLCZM_2AAHyYC-K3IbZWAlea4Oi9QuYIagMPkrRPJNAUP2KZVG1EtBvwkqvsIuwEPYBRcuGEOrxdr2hRJGRwzuuAEbgAkbEKmR2Ze0IcywC4CItqA0XK8Or50dDFuuXDlFQWlTlN0ybadfGlMSKTGzMFf05sNmtK0THB1Abw1XN_85EL-swK3fPpc1uFJOAgae_H9s6qx89ujzSMbxUY1TPqMc4pEfKu3OUhrpbIsdDZKyNbLlqkblRfNGYEr2Z-__9yfzIj9S1usTnDSaksbrfmRqR2bWXe9x3Yki1uyuk2U_kY8YeBKorRAk1sDYgu6v2M_QptG15t_Fm4OL5KCfkM4QKBJgRsJVXC8zS0OU2OC8_sDTE202Edn8fqKcH8XJ3yUYoYn17prceLZHVRucpWRkc4aWKkkOIzZ43ggupcImWJzi8WT3TUNRMP_-gfnxNaG-mVNjz6Ll5W1WEOenxwSteRxfu8ape0z3Z62s16L0aE2OMJwPGqTSEiRQCI5uSayzAjXi59kSKt_0ZaGGLc_Lx0jE2DjWwkpKLx47YnSWEOEEGRtwVAjTDMY0r89YJdklwipAqaeQGK2SrGu-O8kedVWTV5lH69dR6DHthsK363J83fYDIseVIMwOSV06y5SMtQDc0UM8J2pLWUtj_9QN9hhIW6UddlMTR04fyMXwnFg7RWqhRnxe4zt-8kxfaKvfn3GrM0HQzo1KxYujIjXlVCncLeXHA5i_s.D6-v-mooZXfBs7NwRz5ELQ; dtCookie=v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0; visid_incap_1723595=kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA; nlbi_1723595=/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl; incap_ses_1123_1723595=GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg==; nlbi_1723595_2147483392=FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE; rxVisitor=17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU; dtPC=1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0; rxvt=1731516542854|1731514469522; dtSa=false%7C_load_%7C2%7C_onload_%7C-%7C1731514742854%7C514742824_408%7Chttps%3A%2F%2Fwww.mutua.es%2FExpedientes%2FcheckLoginSubstitute.do%7C%7C%7C%7C; 15878cd254142d8c85bc40828dda86d9=213723bd3889b4fae53b7a1ba849756d; visid_incap_1845525=YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI; nlbi_1845525=ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0; incap_ses_1123_1845525=p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w==; reese84=3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs=; nlbi_1712818=vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT; visid_incap_1712818=xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK; incap_ses_1123_1712818=DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-site"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0, i"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "AUTH_SESSION_ID",
+              "value": "54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6"
+            },
+            {
+              "name": "AUTH_SESSION_ID_LEGACY",
+              "value": "54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6"
+            },
+            {
+              "name": "KC_RESTART",
+              "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Puxnwq_3C5AzmUiBO-Y0Mw.w56hQ4a8KI5vAzOP_-GwxDMECqCiD94xsABYf1zuyeYncR3k1-ejbaNMBobuvaP-QDcz232k9YZnWU4CYpZnp5k4PLwja60eYyvnCIpcz6yoA_mpmZuGwGuuoA6XmG-sTUBrpREqtwOdWPV2cWelgo1DVP9Wtgr6hWVpkreijLLVKq0vVkHo_-tcfCDJSZPzVKQGBLCZM_2AAHyYC-K3IbZWAlea4Oi9QuYIagMPkrRPJNAUP2KZVG1EtBvwkqvsIuwEPYBRcuGEOrxdr2hRJGRwzuuAEbgAkbEKmR2Ze0IcywC4CItqA0XK8Or50dDFuuXDlFQWlTlN0ybadfGlMSKTGzMFf05sNmtK0THB1Abw1XN_85EL-swK3fPpc1uFJOAgae_H9s6qx89ujzSMbxUY1TPqMc4pEfKu3OUhrpbIsdDZKyNbLlqkblRfNGYEr2Z-__9yfzIj9S1usTnDSaksbrfmRqR2bWXe9x3Yki1uyuk2U_kY8YeBKorRAk1sDYgu6v2M_QptG15t_Fm4OL5KCfkM4QKBJgRsJVXC8zS0OU2OC8_sDTE202Edn8fqKcH8XJ3yUYoYn17prceLZHVRucpWRkc4aWKkkOIzZ43ggupcImWJzi8WT3TUNRMP_-gfnxNaG-mVNjz6Ll5W1WEOenxwSteRxfu8ape0z3Z62s16L0aE2OMJwPGqTSEiRQCI5uSayzAjXi59kSKt_0ZaGGLc_Lx0jE2DjWwkpKLx47YnSWEOEEGRtwVAjTDMY0r89YJdklwipAqaeQGK2SrGu-O8kedVWTV5lH69dR6DHthsK363J83fYDIseVIMwOSV06y5SMtQDc0UM8J2pLWUtj_9QN9hhIW6UddlMTR04fyMXwnFg7RWqhRnxe4zt-8kxfaKvfn3GrM0HQzo1KxYujIjXlVCncLeXHA5i_s.D6-v-mooZXfBs7NwRz5ELQ"
+            },
+            {
+              "name": "dtCookie",
+              "value": "v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0"
+            },
+            {
+              "name": "visid_incap_1723595",
+              "value": "kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA"
+            },
+            {
+              "name": "nlbi_1723595",
+              "value": "/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl"
+            },
+            {
+              "name": "incap_ses_1123_1723595",
+              "value": "GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg=="
+            },
+            {
+              "name": "nlbi_1723595_2147483392",
+              "value": "FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE"
+            },
+            {
+              "name": "rxVisitor",
+              "value": "17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU"
+            },
+            {
+              "name": "dtPC",
+              "value": "1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0"
+            },
+            {
+              "name": "rxvt",
+              "value": "1731516542854|1731514469522"
+            },
+            {
+              "name": "dtSa",
+              "value": "false|_load_|2|_onload_|-|1731514742854|514742824_408|https://www.mutua.es/Expedientes/checkLoginSubstitute.do||||"
+            },
+            {
+              "name": "15878cd254142d8c85bc40828dda86d9",
+              "value": "213723bd3889b4fae53b7a1ba849756d"
+            },
+            {
+              "name": "visid_incap_1845525",
+              "value": "YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI"
+            },
+            {
+              "name": "nlbi_1845525",
+              "value": "ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0"
+            },
+            {
+              "name": "incap_ses_1123_1845525",
+              "value": "p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w=="
+            },
+            {
+              "name": "reese84",
+              "value": "3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs="
+            },
+            {
+              "name": "nlbi_1712818",
+              "value": "vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT"
+            },
+            {
+              "name": "visid_incap_1712818",
+              "value": "xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK"
+            },
+            {
+              "name": "incap_ses_1123_1712818",
+              "value": "DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            }
+          ],
+          "queryString": [
+            {
+              "name": "response_type",
+              "value": "code"
+            },
+            {
+              "name": "client_id",
+              "value": "was-ExpedientesEAR-www.mutua.es"
+            },
+            {
+              "name": "scope",
+              "value": "openid profile"
+            },
+            {
+              "name": "state",
+              "value": "WVnDsRbztqbANJzq8Ft6vNbVlRkyuU4F9szxXWHqM3A_1731514742736"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "https://www.mutua.es/oidcclient/was-ExpedientesEAR-www.mutua.es"
+            }
+          ],
+          "headersSize": 3852
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "no-store, must-revalidate, max-age=0"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..QOu4pZ4Zy8GzTgRzOKbX7Q.9genHfYVyNZU5AmiUNdvSKOLKf4tfhG3rruabH6GzEmvr3AGbCSVw5e9KKodb9-9CQeJgd7SGJnjTYyC1hqn09I9J7XpKgkWto0LjIyJYg57pn1CI3U63kgfSJiGucZFbOu37Jt-A_YZedFT9bLpuAoN_bxcO1UJ0c6YKgZC1CtF_Ik3k7TP0Bm82CDtpsoySl_63fPRWMi4aDvwO64yExhxFmYyX_jSW0P-Rl5uF2A24TPiETnhYMZoIiCWGyjcOlcMmEBczrAbgdlE0YnbyDA_yQLutIM0f5vXpD5LwHs78VF-w_c_SCRJBYfdIY0QyiFwovxOUnwoNAbdRv1gW33ISANteB1x5I8pL5F8zXIftxEWu473hKtQ81b7iKkAgoldxhmH3RQ0xSwpevY3WWa1DTRMWgMgy_CMvhiX0I-Q_bzprrElZe_VvK_GFRNUMEqkGHKUygSr0_sC0YFVb5tZ6MnYiqelQ3Z7RJjcLNw2Z5EU9grI9X4ZtfRB7JP8hzZIXPaQC3wqQk1usSigweC5owg-UwaVXu_Ak2L0TyR20wBjQOvDJthIEdKOIkeUTbhhePxO9ZX9OPrvaJ8RwFpN7aaJ2je3DkHTd8SXzKBnNAJqZIBHPIUY_lagk5fzQ8ZRcCFXoXYklXBbBYE6lBUtR4TOpINE3U_ffeQ6iEOIttVhrrGchwwXZGVk647gjC7lDlBN7r9bGBVZ26TvSWIJi6kYopiI4x6Bdnw3cA7vscSvkr1sVdVc9CCYo5iDrOt42S6xFdsLDtT5i4-lane4_lWyOaHRrPqAAevYcnU-rDTkP2inKJsYhh-DTCvkyVrbe_PbW9wDml333NTWyKBEVBXPCr9qrebqE8W7TGCHtwefm0OBYw8PGMCQDvCTyElquSPPb1vp_kXat7QCEZk-CS7XHHIXza1Id18vizE.mZ289shKX83J2rQPyu_moA; Version=1; Path=/auth/realms/mutua/; Secure; HttpOnly"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "server-timing",
+              "value": "dtRpid;desc=\"2054545003\", dtSInfo;desc=\"0\""
+            },
+            {
+              "name": "content-security-policy",
+              "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 13 Nov 2024 16:24:31 GMT"
+            },
+            {
+              "name": "x-oneagent-js-injection",
+              "value": "true"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "none"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html;charset=utf-8"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "x-cdn",
+              "value": "Imperva"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-iinfo",
+              "value": "15-15121438-15124345 NNYN CT(27 36 0) RT(1731515039309 30593) q(0 0 0 -1) r(1 1) U24"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "KC_RESTART",
+              "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..QOu4pZ4Zy8GzTgRzOKbX7Q.9genHfYVyNZU5AmiUNdvSKOLKf4tfhG3rruabH6GzEmvr3AGbCSVw5e9KKodb9-9CQeJgd7SGJnjTYyC1hqn09I9J7XpKgkWto0LjIyJYg57pn1CI3U63kgfSJiGucZFbOu37Jt-A_YZedFT9bLpuAoN_bxcO1UJ0c6YKgZC1CtF_Ik3k7TP0Bm82CDtpsoySl_63fPRWMi4aDvwO64yExhxFmYyX_jSW0P-Rl5uF2A24TPiETnhYMZoIiCWGyjcOlcMmEBczrAbgdlE0YnbyDA_yQLutIM0f5vXpD5LwHs78VF-w_c_SCRJBYfdIY0QyiFwovxOUnwoNAbdRv1gW33ISANteB1x5I8pL5F8zXIftxEWu473hKtQ81b7iKkAgoldxhmH3RQ0xSwpevY3WWa1DTRMWgMgy_CMvhiX0I-Q_bzprrElZe_VvK_GFRNUMEqkGHKUygSr0_sC0YFVb5tZ6MnYiqelQ3Z7RJjcLNw2Z5EU9grI9X4ZtfRB7JP8hzZIXPaQC3wqQk1usSigweC5owg-UwaVXu_Ak2L0TyR20wBjQOvDJthIEdKOIkeUTbhhePxO9ZX9OPrvaJ8RwFpN7aaJ2je3DkHTd8SXzKBnNAJqZIBHPIUY_lagk5fzQ8ZRcCFXoXYklXBbBYE6lBUtR4TOpINE3U_ffeQ6iEOIttVhrrGchwwXZGVk647gjC7lDlBN7r9bGBVZ26TvSWIJi6kYopiI4x6Bdnw3cA7vscSvkr1sVdVc9CCYo5iDrOt42S6xFdsLDtT5i4-lane4_lWyOaHRrPqAAevYcnU-rDTkP2inKJsYhh-DTCvkyVrbe_PbW9wDml333NTWyKBEVBXPCr9qrebqE8W7TGCHtwefm0OBYw8PGMCQDvCTyElquSPPb1vp_kXat7QCEZk-CS7XHHIXza1Id18vizE.mZ289shKX83J2rQPyu_moA"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=utf-8",
+            "size": 3910,
+            "text": "<!DOCTYPE html>\n<html>\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\">\n\n            <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/>\n    <title>        Single Sign-on en mutua\n\n\n</title>\n    <script type=\"text/javascript\" src=\"/auth/ruxitagentjs_ICANVfqru_10301241007103824.js\" data-dtconfig=\"app=986453e5ac0260f3|cuc=78dj8p8v|mel=100000|featureHash=ICANVfqru|dpvc=1|lastModification=1730971293801|tp=500,50,0|rdnt=1|uxrgce=1|agentUri=/auth/ruxitagentjs_ICANVfqru_10301241007103824.js|reportUrl=/auth/rb_bf13163sva|rid=RID_-1939264738|rpid=2054545003|domain=mutua.es\"></script><link rel=\"icon\" href=\"/auth/resources/c9p9i/login/sgeChanges/img/favicon.ico\" />\n            <link href=\"/auth/resources/c9p9i/login/sgeChanges/css/estilos.css\" rel=\"stylesheet\" />\n    <script src=\"https://code.jquery.com/jquery-3.3.1.min.js\"></script>\n            <script src=\"/auth/resources/c9p9i/login/sgeChanges/js/main.js\" type=\"text/javascript\"></script>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n</head>\n\n<body>\n    <div id=\"body\">\n        <div class=\"loginImg\">\n            <div class=\"content\">\n                <h1><img src=\"/auth/resources/c9p9i/login/sgeChanges/img/logo-mutuamad.svg\" ><span>GESTIÓN DE <strong>Expedientes</strong></span></h1>\n                <img src=\"/auth/resources/c9p9i/login/sgeChanges/img/bg-gestionexp-web.png\" class=\"hideMobile\" alt=\"\">\n                <img src=\"/auth/resources/c9p9i/login/sgeChanges/img/bg-gestionexp-mobile.png\" class=\"hideDesktop\" alt=\"\">\n            </div>\n          </div>            \n        <div class=\"container\">\n            <div class=\"loginForm\">\n                <img src=\"/auth/resources/c9p9i/login/sgeChanges/img/bicrom_peq.png\" alt=\"logotipo\">\n                <form method=\"POST\" action=\"https://sso.mutua.es/auth/realms/mutua/login-actions/authenticate?session_code=jClCglK_Ey6gKsZRZvpR0Svyq1TYwvGFEgbHZc145nQ&amp;execution=60d48996-e52d-454e-bcbb-9e45bb5e3c5f&amp;client_id=was-ExpedientesEAR-www.mutua.es&amp;tab_id=EQZbDLZE9N8\">\n                    <h1 class=\"main_title\">Inicio de sesión</h1>\n                    <div class=\"row \">\n                        <label for=\"user\">Usuario</label>\n                        <input id=\"user\" class=\"textfield pf-c-form-control\" name=\"username\" value=\"\" type=\"text\" autofocus=\"\" autocomplete=\"off\" />\n                    </div>\n                    <div class=\"row \">\n                        <label for=\"pass\">Contraseña</label>\n                        <input id=\"pass\" class=\"textfield pf-c-form-control\" name=\"password\" type=\"password\" autocomplete=\"off\" />\n                    </div>\n                    <div class=\"row\">\n                        <input class=\"btn_base pf-c-button pf-m-primary btn-lg\" name=\"login\" id=\"kc-login\" type=\"submit\" value=\"Iniciar sesión\"/>\n\n\n                            <a class=\"forgot-link\" href=\"/auth/realms/mutua/login-actions/reset-credentials?client_id=was-ExpedientesEAR-www.mutua.es&amp;tab_id=EQZbDLZE9N8\">¿Olvidaste tu contraseña?</a>\n\n                    </div>\n                </form>\n                <div id=\"modalFormOk\" class=\"blueLightbox\">\n                    <div class=\"modal-wrap\">\n                        <a href=\"#\" class=\"linkCerrar\"></a>\n                        <h4>Hemos recibido <br>correctamente tu solicitud</h4>\n                        <p>En breve recibirás un email</p>\n                        <a href=\"#\" class=\"btn_base\">Aceptar</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n    </div>\n    <footer id=\"footer\">\n        <img src=\"/auth/resources/c9p9i/login/sgeChanges/img/logo-mutuamad.png\" alt=\"Logotipo\">\n        <div class=\"txt\">\n            <strong>SINGLE</strong> SIGN-ON\n        </div>\n    </footer>\n</body>\n</html>\n"
+          },
+          "redirectURL": "",
+          "headersSize": 1821,
+          "bodySize": 3312
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 207,
+          "receive": 0
+        },
+        "time": 207,
+        "_securityState": "secure",
+        "serverIPAddress": "45.60.87.131",
+        "connection": "443",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2024-11-13T17:24:44.127+01:00",
+        "request": {
+          "bodySize": 67,
+          "method": "POST",
+          "url": "https://sso.mutua.es/auth/realms/mutua/login-actions/authenticate?session_code=jClCglK_Ey6gKsZRZvpR0Svyq1TYwvGFEgbHZc145nQ&execution=60d48996-e52d-454e-bcbb-9e45bb5e3c5f&client_id=was-ExpedientesEAR-www.mutua.es&tab_id=EQZbDLZE9N8",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "sso.mutua.es"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Content-Length",
+              "value": "67"
+            },
+            {
+              "name": "Origin",
+              "value": "null"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "AUTH_SESSION_ID=54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6; AUTH_SESSION_ID_LEGACY=54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6; KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..QOu4pZ4Zy8GzTgRzOKbX7Q.9genHfYVyNZU5AmiUNdvSKOLKf4tfhG3rruabH6GzEmvr3AGbCSVw5e9KKodb9-9CQeJgd7SGJnjTYyC1hqn09I9J7XpKgkWto0LjIyJYg57pn1CI3U63kgfSJiGucZFbOu37Jt-A_YZedFT9bLpuAoN_bxcO1UJ0c6YKgZC1CtF_Ik3k7TP0Bm82CDtpsoySl_63fPRWMi4aDvwO64yExhxFmYyX_jSW0P-Rl5uF2A24TPiETnhYMZoIiCWGyjcOlcMmEBczrAbgdlE0YnbyDA_yQLutIM0f5vXpD5LwHs78VF-w_c_SCRJBYfdIY0QyiFwovxOUnwoNAbdRv1gW33ISANteB1x5I8pL5F8zXIftxEWu473hKtQ81b7iKkAgoldxhmH3RQ0xSwpevY3WWa1DTRMWgMgy_CMvhiX0I-Q_bzprrElZe_VvK_GFRNUMEqkGHKUygSr0_sC0YFVb5tZ6MnYiqelQ3Z7RJjcLNw2Z5EU9grI9X4ZtfRB7JP8hzZIXPaQC3wqQk1usSigweC5owg-UwaVXu_Ak2L0TyR20wBjQOvDJthIEdKOIkeUTbhhePxO9ZX9OPrvaJ8RwFpN7aaJ2je3DkHTd8SXzKBnNAJqZIBHPIUY_lagk5fzQ8ZRcCFXoXYklXBbBYE6lBUtR4TOpINE3U_ffeQ6iEOIttVhrrGchwwXZGVk647gjC7lDlBN7r9bGBVZ26TvSWIJi6kYopiI4x6Bdnw3cA7vscSvkr1sVdVc9CCYo5iDrOt42S6xFdsLDtT5i4-lane4_lWyOaHRrPqAAevYcnU-rDTkP2inKJsYhh-DTCvkyVrbe_PbW9wDml333NTWyKBEVBXPCr9qrebqE8W7TGCHtwefm0OBYw8PGMCQDvCTyElquSPPb1vp_kXat7QCEZk-CS7XHHIXza1Id18vizE.mZ289shKX83J2rQPyu_moA; dtCookie=v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0; visid_incap_1723595=kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA; nlbi_1723595=/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl; incap_ses_1123_1723595=GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg==; nlbi_1723595_2147483392=FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE; rxVisitor=17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU; dtPC=1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0; rxvt=1731516542854|1731514469522; dtSa=false%7C_load_%7C2%7C_onload_%7C-%7C1731514742854%7C514742824_408%7Chttps%3A%2F%2Fwww.mutua.es%2FExpedientes%2FcheckLoginSubstitute.do%7C%7C%7C%7C; 15878cd254142d8c85bc40828dda86d9=213723bd3889b4fae53b7a1ba849756d; visid_incap_1845525=YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI; nlbi_1845525=ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0; incap_ses_1123_1845525=p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w==; reese84=3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs=; nlbi_1712818=vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT; visid_incap_1712818=xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK; incap_ses_1123_1712818=DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0, i"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "AUTH_SESSION_ID",
+              "value": "54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6"
+            },
+            {
+              "name": "AUTH_SESSION_ID_LEGACY",
+              "value": "54b23f8e-abec-47cf-941a-3170044fd333.so-corporativo-39-t8ch6"
+            },
+            {
+              "name": "KC_RESTART",
+              "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..QOu4pZ4Zy8GzTgRzOKbX7Q.9genHfYVyNZU5AmiUNdvSKOLKf4tfhG3rruabH6GzEmvr3AGbCSVw5e9KKodb9-9CQeJgd7SGJnjTYyC1hqn09I9J7XpKgkWto0LjIyJYg57pn1CI3U63kgfSJiGucZFbOu37Jt-A_YZedFT9bLpuAoN_bxcO1UJ0c6YKgZC1CtF_Ik3k7TP0Bm82CDtpsoySl_63fPRWMi4aDvwO64yExhxFmYyX_jSW0P-Rl5uF2A24TPiETnhYMZoIiCWGyjcOlcMmEBczrAbgdlE0YnbyDA_yQLutIM0f5vXpD5LwHs78VF-w_c_SCRJBYfdIY0QyiFwovxOUnwoNAbdRv1gW33ISANteB1x5I8pL5F8zXIftxEWu473hKtQ81b7iKkAgoldxhmH3RQ0xSwpevY3WWa1DTRMWgMgy_CMvhiX0I-Q_bzprrElZe_VvK_GFRNUMEqkGHKUygSr0_sC0YFVb5tZ6MnYiqelQ3Z7RJjcLNw2Z5EU9grI9X4ZtfRB7JP8hzZIXPaQC3wqQk1usSigweC5owg-UwaVXu_Ak2L0TyR20wBjQOvDJthIEdKOIkeUTbhhePxO9ZX9OPrvaJ8RwFpN7aaJ2je3DkHTd8SXzKBnNAJqZIBHPIUY_lagk5fzQ8ZRcCFXoXYklXBbBYE6lBUtR4TOpINE3U_ffeQ6iEOIttVhrrGchwwXZGVk647gjC7lDlBN7r9bGBVZ26TvSWIJi6kYopiI4x6Bdnw3cA7vscSvkr1sVdVc9CCYo5iDrOt42S6xFdsLDtT5i4-lane4_lWyOaHRrPqAAevYcnU-rDTkP2inKJsYhh-DTCvkyVrbe_PbW9wDml333NTWyKBEVBXPCr9qrebqE8W7TGCHtwefm0OBYw8PGMCQDvCTyElquSPPb1vp_kXat7QCEZk-CS7XHHIXza1Id18vizE.mZ289shKX83J2rQPyu_moA"
+            },
+            {
+              "name": "dtCookie",
+              "value": "v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0"
+            },
+            {
+              "name": "visid_incap_1723595",
+              "value": "kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA"
+            },
+            {
+              "name": "nlbi_1723595",
+              "value": "/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl"
+            },
+            {
+              "name": "incap_ses_1123_1723595",
+              "value": "GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg=="
+            },
+            {
+              "name": "nlbi_1723595_2147483392",
+              "value": "FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE"
+            },
+            {
+              "name": "rxVisitor",
+              "value": "17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU"
+            },
+            {
+              "name": "dtPC",
+              "value": "1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0"
+            },
+            {
+              "name": "rxvt",
+              "value": "1731516542854|1731514469522"
+            },
+            {
+              "name": "dtSa",
+              "value": "false|_load_|2|_onload_|-|1731514742854|514742824_408|https://www.mutua.es/Expedientes/checkLoginSubstitute.do||||"
+            },
+            {
+              "name": "15878cd254142d8c85bc40828dda86d9",
+              "value": "213723bd3889b4fae53b7a1ba849756d"
+            },
+            {
+              "name": "visid_incap_1845525",
+              "value": "YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI"
+            },
+            {
+              "name": "nlbi_1845525",
+              "value": "ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0"
+            },
+            {
+              "name": "incap_ses_1123_1845525",
+              "value": "p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w=="
+            },
+            {
+              "name": "reese84",
+              "value": "3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs="
+            },
+            {
+              "name": "nlbi_1712818",
+              "value": "vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT"
+            },
+            {
+              "name": "visid_incap_1712818",
+              "value": "xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK"
+            },
+            {
+              "name": "incap_ses_1123_1712818",
+              "value": "DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            }
+          ],
+          "queryString": [
+            {
+              "name": "session_code",
+              "value": "jClCglK_Ey6gKsZRZvpR0Svyq1TYwvGFEgbHZc145nQ"
+            },
+            {
+              "name": "execution",
+              "value": "60d48996-e52d-454e-bcbb-9e45bb5e3c5f"
+            },
+            {
+              "name": "client_id",
+              "value": "was-ExpedientesEAR-www.mutua.es"
+            },
+            {
+              "name": "tab_id",
+              "value": "EQZbDLZE9N8"
+            }
+          ],
+          "headersSize": 3834,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "username",
+                "value": "A0028268"
+              },
+              {
+                "name": "password",
+                "value": "Septiembre2024"
+              },
+              {
+                "name": "login",
+                "value": "Iniciar sesión"
+              }
+            ],
+            "text": "username=A0028268&password=Septiembre2024&login=Iniciar+sesi%C3%B3n"
+          }
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "no-store, must-revalidate, max-age=0"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/mutua/; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/mutua/; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KEYCLOAK_IDENTITY=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxMDllYThlYy1iMjY4LTRiOTktYjFhNS1hZDYwNGM2YWNiYjYifQ.eyJleHAiOjE3MzE1NTEwODQsImlhdCI6MTczMTUxNTA4NCwianRpIjoiYzU0ODM0YzEtNGI0Yy00MzJkLWEzNjMtMTQzNjExNWM0YTAzIiwiaXNzIjoiaHR0cHM6Ly9zc28ubXV0dWEuZXMvYXV0aC9yZWFsbXMvbXV0dWEiLCJzdWIiOiIwODMyYjI1ZC01NGEwLTRmODAtYjVlYS1mNTA3ZTczY2IzMzYiLCJ0eXAiOiJTZXJpYWxpemVkLUlEIiwic2Vzc2lvbl9zdGF0ZSI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInNpZCI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInN0YXRlX2NoZWNrZXIiOiJKd05lU19ualNmMGZ6VEM3ZHRjVXlSNzhHOW9RdXp0bVEtOXJNdVRSek9JIn0.BvRTtIs773_Xz9zM5qfo7ln9Ku0FKdNW87r3MubWCog; Version=1; Path=/auth/realms/mutua/; SameSite=None; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KEYCLOAK_IDENTITY_LEGACY=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxMDllYThlYy1iMjY4LTRiOTktYjFhNS1hZDYwNGM2YWNiYjYifQ.eyJleHAiOjE3MzE1NTEwODQsImlhdCI6MTczMTUxNTA4NCwianRpIjoiYzU0ODM0YzEtNGI0Yy00MzJkLWEzNjMtMTQzNjExNWM0YTAzIiwiaXNzIjoiaHR0cHM6Ly9zc28ubXV0dWEuZXMvYXV0aC9yZWFsbXMvbXV0dWEiLCJzdWIiOiIwODMyYjI1ZC01NGEwLTRmODAtYjVlYS1mNTA3ZTczY2IzMzYiLCJ0eXAiOiJTZXJpYWxpemVkLUlEIiwic2Vzc2lvbl9zdGF0ZSI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInNpZCI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInN0YXRlX2NoZWNrZXIiOiJKd05lU19ualNmMGZ6VEM3ZHRjVXlSNzhHOW9RdXp0bVEtOXJNdVRSek9JIn0.BvRTtIs773_Xz9zM5qfo7ln9Ku0FKdNW87r3MubWCog; Version=1; Path=/auth/realms/mutua/; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KEYCLOAK_SESSION=mutua/0832b25d-54a0-4f80-b5ea-f507e73cb336/54b23f8e-abec-47cf-941a-3170044fd333; Version=1; Expires=Thu, 14-Nov-2024 02:24:44 GMT; Max-Age=36000; Path=/auth/realms/mutua/; SameSite=None; Secure"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KEYCLOAK_SESSION_LEGACY=mutua/0832b25d-54a0-4f80-b5ea-f507e73cb336/54b23f8e-abec-47cf-941a-3170044fd333; Version=1; Expires=Thu, 14-Nov-2024 02:24:44 GMT; Max-Age=36000; Path=/auth/realms/mutua/; Secure"
+            },
+            {
+              "name": "set-cookie",
+              "value": "KEYCLOAK_REMEMBER_ME=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/mutua/; Secure; HttpOnly"
+            },
+            {
+              "name": "p3p",
+              "value": "CP=\"This is not a P3P policy!\""
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "timing-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "location",
+              "value": "https://www.mutua.es/oidcclient/was-ExpedientesEAR-www.mutua.es?state=WVnDsRbztqbANJzq8Ft6vNbVlRkyuU4F9szxXWHqM3A_1731514742736&session_state=54b23f8e-abec-47cf-941a-3170044fd333&code=49bd7d24-22f0-47f2-814e-d17628e1d8c8.54b23f8e-abec-47cf-941a-3170044fd333.4f03755d-dafb-444c-aefd-ab9e8ec0ee55"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 13 Nov 2024 16:24:44 GMT"
+            },
+            {
+              "name": "x-oneagent-js-injection",
+              "value": "true"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "server-timing",
+              "value": "dtRpid;desc=\"-846546973\", dtTao;desc=\"1\", dtSInfo;desc=\"0\""
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "none"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "x-cdn",
+              "value": "Imperva"
+            },
+            {
+              "name": "x-iinfo",
+              "value": "15-15121438-15125718 NNNN CT(30 29 0) RT(1731515039309 43887) q(0 1 1 -1) r(2 2) U24"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "KEYCLOAK_LOCALE",
+              "value": ""
+            },
+            {
+              "name": "KC_RESTART",
+              "value": ""
+            },
+            {
+              "name": "KEYCLOAK_IDENTITY",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxMDllYThlYy1iMjY4LTRiOTktYjFhNS1hZDYwNGM2YWNiYjYifQ.eyJleHAiOjE3MzE1NTEwODQsImlhdCI6MTczMTUxNTA4NCwianRpIjoiYzU0ODM0YzEtNGI0Yy00MzJkLWEzNjMtMTQzNjExNWM0YTAzIiwiaXNzIjoiaHR0cHM6Ly9zc28ubXV0dWEuZXMvYXV0aC9yZWFsbXMvbXV0dWEiLCJzdWIiOiIwODMyYjI1ZC01NGEwLTRmODAtYjVlYS1mNTA3ZTczY2IzMzYiLCJ0eXAiOiJTZXJpYWxpemVkLUlEIiwic2Vzc2lvbl9zdGF0ZSI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInNpZCI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInN0YXRlX2NoZWNrZXIiOiJKd05lU19ualNmMGZ6VEM3ZHRjVXlSNzhHOW9RdXp0bVEtOXJNdVRSek9JIn0.BvRTtIs773_Xz9zM5qfo7ln9Ku0FKdNW87r3MubWCog"
+            },
+            {
+              "name": "KEYCLOAK_IDENTITY_LEGACY",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxMDllYThlYy1iMjY4LTRiOTktYjFhNS1hZDYwNGM2YWNiYjYifQ.eyJleHAiOjE3MzE1NTEwODQsImlhdCI6MTczMTUxNTA4NCwianRpIjoiYzU0ODM0YzEtNGI0Yy00MzJkLWEzNjMtMTQzNjExNWM0YTAzIiwiaXNzIjoiaHR0cHM6Ly9zc28ubXV0dWEuZXMvYXV0aC9yZWFsbXMvbXV0dWEiLCJzdWIiOiIwODMyYjI1ZC01NGEwLTRmODAtYjVlYS1mNTA3ZTczY2IzMzYiLCJ0eXAiOiJTZXJpYWxpemVkLUlEIiwic2Vzc2lvbl9zdGF0ZSI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInNpZCI6IjU0YjIzZjhlLWFiZWMtNDdjZi05NDFhLTMxNzAwNDRmZDMzMyIsInN0YXRlX2NoZWNrZXIiOiJKd05lU19ualNmMGZ6VEM3ZHRjVXlSNzhHOW9RdXp0bVEtOXJNdVRSek9JIn0.BvRTtIs773_Xz9zM5qfo7ln9Ku0FKdNW87r3MubWCog"
+            },
+            {
+              "name": "KEYCLOAK_SESSION",
+              "value": "mutua/0832b25d-54a0-4f80-b5ea-f507e73cb336/54b23f8e-abec-47cf-941a-3170044fd333"
+            },
+            {
+              "name": "KEYCLOAK_SESSION_LEGACY",
+              "value": "mutua/0832b25d-54a0-4f80-b5ea-f507e73cb336/54b23f8e-abec-47cf-941a-3170044fd333"
+            },
+            {
+              "name": "KEYCLOAK_REMEMBER_ME",
+              "value": ""
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 63013,
+            "comment": "Los cuerpos de la respuesta no están incluidos."
+          },
+          "redirectURL": "https://www.mutua.es/oidcclient/was-ExpedientesEAR-www.mutua.es?state=WVnDsRbztqbANJzq8Ft6vNbVlRkyuU4F9szxXWHqM3A_1731514742736&session_state=54b23f8e-abec-47cf-941a-3170044fd333&code=49bd7d24-22f0-47f2-814e-d17628e1d8c8.54b23f8e-abec-47cf-941a-3170044fd333.4f03755d-dafb-444c-aefd-ab9e8ec0ee55",
+          "headersSize": 3281,
+          "bodySize": 14773
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 199,
+          "receive": 0
+        },
+        "time": 199,
+        "_securityState": "secure",
+        "serverIPAddress": "45.60.87.131",
+        "connection": "443",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2024-11-13T17:24:44.331+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.mutua.es/oidcclient/was-ExpedientesEAR-www.mutua.es?state=WVnDsRbztqbANJzq8Ft6vNbVlRkyuU4F9szxXWHqM3A_1731514742736&session_state=54b23f8e-abec-47cf-941a-3170044fd333&code=49bd7d24-22f0-47f2-814e-d17628e1d8c8.54b23f8e-abec-47cf-941a-3170044fd333.4f03755d-dafb-444c-aefd-ab9e8ec0ee55",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.mutua.es"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=00008Drxgnp-TCfezeSzkrMEcbP:1c6ub9dsr; MutuaF=425990316.20480.0000; dtCookie=v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0; visid_incap_1723595=kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA; nlbi_1723595=/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl; incap_ses_1123_1723595=GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg==; OIDCSTATE_was-ExpedientesEAR-www.mutua.es=rO0ABXNyABNqYXZhLnV0aWwuSGFzaHRhYmxlE7sPJSFK5LgDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAACHcIAAAACwAAAAN0AAZyZXFVcmx0AD9odHRwOi8vZXhwZWRpZW50ZXMubXV0dWEuZXMvRXhwZWRpZW50ZXMvY2hlY2tMb2dpblN1YnN0aXR1dGUuZG90AAZtZXRob2R0AANHRVR0AAdzdGF0ZUlkdAA5V1ZuRHNSYnp0cWJBTkp6cThGdDZ2TmJWbFJreXVVNEY5c3p4WFdIcU0zQV8xNzMxNTE0NzQyNzM2eA==_nIVn6wchxt7d6J8QaWCaDIjkytZ+vWiTfVSGVRjdt14=; nlbi_1723595_2147483392=FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE; rxVisitor=17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU; dtPC=1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0; rxvt=1731516542854|1731514469522; dtSa=false%7C_load_%7C2%7C_onload_%7C-%7C1731514742854%7C514742824_408%7Chttps%3A%2F%2Fwww.mutua.es%2FExpedientes%2FcheckLoginSubstitute.do%7C%7C%7C%7C; visid_incap_1845525=YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI; nlbi_1845525=ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0; incap_ses_1123_1845525=p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w==; reese84=3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs=; nlbi_1712818=vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT; visid_incap_1712818=xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK; incap_ses_1123_1712818=DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw==; OIDCREQURL_was-ExpedientesEAR-www.mutua.es=https://www.mutua.es/Expedientes/checkLoginSubstitute.do"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0, i"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "00008Drxgnp-TCfezeSzkrMEcbP:1c6ub9dsr"
+            },
+            {
+              "name": "MutuaF",
+              "value": "425990316.20480.0000"
+            },
+            {
+              "name": "dtCookie",
+              "value": "v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0"
+            },
+            {
+              "name": "visid_incap_1723595",
+              "value": "kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA"
+            },
+            {
+              "name": "nlbi_1723595",
+              "value": "/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl"
+            },
+            {
+              "name": "incap_ses_1123_1723595",
+              "value": "GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg=="
+            },
+            {
+              "name": "OIDCSTATE_was-ExpedientesEAR-www.mutua.es",
+              "value": "rO0ABXNyABNqYXZhLnV0aWwuSGFzaHRhYmxlE7sPJSFK5LgDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAACHcIAAAACwAAAAN0AAZyZXFVcmx0AD9odHRwOi8vZXhwZWRpZW50ZXMubXV0dWEuZXMvRXhwZWRpZW50ZXMvY2hlY2tMb2dpblN1YnN0aXR1dGUuZG90AAZtZXRob2R0AANHRVR0AAdzdGF0ZUlkdAA5V1ZuRHNSYnp0cWJBTkp6cThGdDZ2TmJWbFJreXVVNEY5c3p4WFdIcU0zQV8xNzMxNTE0NzQyNzM2eA==_nIVn6wchxt7d6J8QaWCaDIjkytZ+vWiTfVSGVRjdt14="
+            },
+            {
+              "name": "nlbi_1723595_2147483392",
+              "value": "FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE"
+            },
+            {
+              "name": "rxVisitor",
+              "value": "17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU"
+            },
+            {
+              "name": "dtPC",
+              "value": "1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0"
+            },
+            {
+              "name": "rxvt",
+              "value": "1731516542854|1731514469522"
+            },
+            {
+              "name": "dtSa",
+              "value": "false|_load_|2|_onload_|-|1731514742854|514742824_408|https://www.mutua.es/Expedientes/checkLoginSubstitute.do||||"
+            },
+            {
+              "name": "visid_incap_1845525",
+              "value": "YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI"
+            },
+            {
+              "name": "nlbi_1845525",
+              "value": "ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0"
+            },
+            {
+              "name": "incap_ses_1123_1845525",
+              "value": "p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w=="
+            },
+            {
+              "name": "reese84",
+              "value": "3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs="
+            },
+            {
+              "name": "nlbi_1712818",
+              "value": "vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT"
+            },
+            {
+              "name": "visid_incap_1712818",
+              "value": "xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK"
+            },
+            {
+              "name": "incap_ses_1123_1712818",
+              "value": "DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            },
+            {
+              "name": "OIDCREQURL_was-ExpedientesEAR-www.mutua.es",
+              "value": "https://www.mutua.es/Expedientes/checkLoginSubstitute.do"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "state",
+              "value": "WVnDsRbztqbANJzq8Ft6vNbVlRkyuU4F9szxXWHqM3A_1731514742736"
+            },
+            {
+              "name": "session_state",
+              "value": "54b23f8e-abec-47cf-941a-3170044fd333"
+            },
+            {
+              "name": "code",
+              "value": "49bd7d24-22f0-47f2-814e-d17628e1d8c8.54b23f8e-abec-47cf-941a-3170044fd333.4f03755d-dafb-444c-aefd-ab9e8ec0ee55"
+            }
+          ],
+          "headersSize": 3127
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Wed, 13 Nov 2024 16:24:44 GMT"
+            },
+            {
+              "name": "location",
+              "value": "https://www.mutua.es/Expedientes/checkLoginSubstitute.do"
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 01 Dec 1994 16:00:00 GMT"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache=\"set-cookie, set-cookie2\""
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "content-language",
+              "value": "es-ES"
+            },
+            {
+              "name": "set-cookie",
+              "value": "OIDCSESSIONID_was-ExpedientesEAR-www.mutua.es=TFWPNrXpLzfMssAcXEs3UCqWpuotCYeiVHQs5GtAyUs; Path=/; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "OIDCREQURL_was-ExpedientesEAR-www.mutua.es=\"\"; Expires=Thu, 01-Dec-94 16:00:00 GMT; Path=/"
+            },
+            {
+              "name": "set-cookie",
+              "value": "MutuaF=868751532.20480.0000; path=/; Httponly; Secure"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=16070400; includeSubDomains"
+            },
+            {
+              "name": "x-cdn",
+              "value": "Imperva"
+            },
+            {
+              "name": "x-iinfo",
+              "value": "11-3365258-3365266 NNNN CT(28 64 0) RT(1731515083463 69) q(0 0 1 -1) r(2 2) U24"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "OIDCSESSIONID_was-ExpedientesEAR-www.mutua.es",
+              "value": "TFWPNrXpLzfMssAcXEs3UCqWpuotCYeiVHQs5GtAyUs"
+            },
+            {
+              "name": "OIDCREQURL_was-ExpedientesEAR-www.mutua.es",
+              "value": "\"\""
+            },
+            {
+              "name": "MutuaF",
+              "value": "868751532.20480.0000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 63013,
+            "comment": "Los cuerpos de la respuesta no están incluidos."
+          },
+          "redirectURL": "https://www.mutua.es/Expedientes/checkLoginSubstitute.do",
+          "headersSize": 737,
+          "bodySize": 12229
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 27,
+          "connect": 51,
+          "ssl": 56,
+          "send": 0,
+          "wait": 255,
+          "receive": 0
+        },
+        "time": 389,
+        "_securityState": "secure",
+        "serverIPAddress": "45.60.87.131",
+        "connection": "443",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2024-11-13T17:24:44.730+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.mutua.es/Expedientes/checkLoginSubstitute.do",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.mutua.es"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "FILTER_SELECT1-1501690=2; panelBusqueda=panelBoton; Avisos=1; Bandeja=1; Referenciado=1; Objetos=1; Warning=1; FILTER_SELECT_DOCUMENTS1-1501690=0; JSESSIONID=00008Drxgnp-TCfezeSzkrMEcbP:1c6ub9dsr; MutuaF=868751532.20480.0000; dtCookie=v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0; visid_incap_1723595=kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA; nlbi_1723595=/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl; incap_ses_1123_1723595=GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg==; OIDCSTATE_was-ExpedientesEAR-www.mutua.es=rO0ABXNyABNqYXZhLnV0aWwuSGFzaHRhYmxlE7sPJSFK5LgDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAACHcIAAAACwAAAAN0AAZyZXFVcmx0AD9odHRwOi8vZXhwZWRpZW50ZXMubXV0dWEuZXMvRXhwZWRpZW50ZXMvY2hlY2tMb2dpblN1YnN0aXR1dGUuZG90AAZtZXRob2R0AANHRVR0AAdzdGF0ZUlkdAA5V1ZuRHNSYnp0cWJBTkp6cThGdDZ2TmJWbFJreXVVNEY5c3p4WFdIcU0zQV8xNzMxNTE0NzQyNzM2eA==_nIVn6wchxt7d6J8QaWCaDIjkytZ+vWiTfVSGVRjdt14=; nlbi_1723595_2147483392=FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE; rxVisitor=17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU; dtPC=1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0; rxvt=1731516542854|1731514469522; dtSa=false%7C_load_%7C2%7C_onload_%7C-%7C1731514742854%7C514742824_408%7Chttps%3A%2F%2Fwww.mutua.es%2FExpedientes%2FcheckLoginSubstitute.do%7C%7C%7C%7C; visid_incap_1845525=YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI; nlbi_1845525=ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0; incap_ses_1123_1845525=p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w==; reese84=3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs=; nlbi_1712818=vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT; visid_incap_1712818=xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK; incap_ses_1123_1712818=DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw==; OIDCSESSIONID_was-ExpedientesEAR-www.mutua.es=TFWPNrXpLzfMssAcXEs3UCqWpuotCYeiVHQs5GtAyUs"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0, i"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "FILTER_SELECT1-1501690",
+              "value": "2"
+            },
+            {
+              "name": "panelBusqueda",
+              "value": "panelBoton"
+            },
+            {
+              "name": "Avisos",
+              "value": "1"
+            },
+            {
+              "name": "Bandeja",
+              "value": "1"
+            },
+            {
+              "name": "Referenciado",
+              "value": "1"
+            },
+            {
+              "name": "Objetos",
+              "value": "1"
+            },
+            {
+              "name": "Warning",
+              "value": "1"
+            },
+            {
+              "name": "FILTER_SELECT_DOCUMENTS1-1501690",
+              "value": "0"
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "00008Drxgnp-TCfezeSzkrMEcbP:1c6ub9dsr"
+            },
+            {
+              "name": "MutuaF",
+              "value": "868751532.20480.0000"
+            },
+            {
+              "name": "dtCookie",
+              "value": "v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0"
+            },
+            {
+              "name": "visid_incap_1723595",
+              "value": "kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA"
+            },
+            {
+              "name": "nlbi_1723595",
+              "value": "/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl"
+            },
+            {
+              "name": "incap_ses_1123_1723595",
+              "value": "GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg=="
+            },
+            {
+              "name": "OIDCSTATE_was-ExpedientesEAR-www.mutua.es",
+              "value": "rO0ABXNyABNqYXZhLnV0aWwuSGFzaHRhYmxlE7sPJSFK5LgDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAACHcIAAAACwAAAAN0AAZyZXFVcmx0AD9odHRwOi8vZXhwZWRpZW50ZXMubXV0dWEuZXMvRXhwZWRpZW50ZXMvY2hlY2tMb2dpblN1YnN0aXR1dGUuZG90AAZtZXRob2R0AANHRVR0AAdzdGF0ZUlkdAA5V1ZuRHNSYnp0cWJBTkp6cThGdDZ2TmJWbFJreXVVNEY5c3p4WFdIcU0zQV8xNzMxNTE0NzQyNzM2eA==_nIVn6wchxt7d6J8QaWCaDIjkytZ+vWiTfVSGVRjdt14="
+            },
+            {
+              "name": "nlbi_1723595_2147483392",
+              "value": "FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE"
+            },
+            {
+              "name": "rxVisitor",
+              "value": "17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU"
+            },
+            {
+              "name": "dtPC",
+              "value": "1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0"
+            },
+            {
+              "name": "rxvt",
+              "value": "1731516542854|1731514469522"
+            },
+            {
+              "name": "dtSa",
+              "value": "false|_load_|2|_onload_|-|1731514742854|514742824_408|https://www.mutua.es/Expedientes/checkLoginSubstitute.do||||"
+            },
+            {
+              "name": "visid_incap_1845525",
+              "value": "YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI"
+            },
+            {
+              "name": "nlbi_1845525",
+              "value": "ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0"
+            },
+            {
+              "name": "incap_ses_1123_1845525",
+              "value": "p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w=="
+            },
+            {
+              "name": "reese84",
+              "value": "3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs="
+            },
+            {
+              "name": "nlbi_1712818",
+              "value": "vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT"
+            },
+            {
+              "name": "visid_incap_1712818",
+              "value": "xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK"
+            },
+            {
+              "name": "incap_ses_1123_1712818",
+              "value": "DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            },
+            {
+              "name": "OIDCSESSIONID_was-ExpedientesEAR-www.mutua.es",
+              "value": "TFWPNrXpLzfMssAcXEs3UCqWpuotCYeiVHQs5GtAyUs"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 3026
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Wed, 13 Nov 2024 16:24:44 GMT"
+            },
+            {
+              "name": "x-oneagent-js-injection",
+              "value": "true"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "pragma",
+              "value": "No-cache"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache,no-store,max-age=0"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "name": "location",
+              "value": "https://www.mutua.es/Expedientes/showProcedureTasksList.do"
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html;charset=UTF-8"
+            },
+            {
+              "name": "content-language",
+              "value": "es-ES"
+            },
+            {
+              "name": "set-cookie",
+              "value": "LtpaToken2=XV0+on8+fFr/at27DA9JgLaP8nSq7hN9r46CJ/XgfTOo90+bRdz2MEDAfpv3Kq9I5wvwIiYtu7Rs9PZWsyW/HjCVHENWcxtH7mjGvdS/v1MR6wVtE7RrNw/naGXNpwEmh7eUd5e6hqrWV76RNNFOf0cZKIG7RzBW1qXkrHD23yYa4eSDHtc6cNEzZ89AtZKDc2NKJcbhC8CG1qdY/hJW6JZEGMBxxEtkBPpiyAMmOy2jOmnP0DA9O6hnVBFFeBsXXWWULRvuXHkwwEKUW+7cJcvA4hyNKqsIiD+yyJmJ06uqLm7POmjQl4XjByispDl4L+GnjjFb38hFKWbwIIqP7VxWjorZ3WhNCxjRhgq9NYqFansg5hDmWvoZsrWTJsteHPvD+ntsKlw/+J1+dGpkUnbBVMRjFY0eR38p1WXr++NFTc0nW+IeLqzZ3IFh5uVVyLhzd1w2EF5OEAyJGaK1uDuCj/yAm0x9E1xTaD5FD3mgEbR8BwgMk6phv/adESnl9TEjjn6VSNg+b8YCxiESRwMB74Owpb5mLtAVCaE9YhQZ/cQ2mUTZ9D2ihTKe3RonJ6dRAqX77/4a//cy2SDReVCIVGw5el/Kd6+xwt6OtWSgO7hR/FJcs6yDr5hVG0ykN6nglZv/Yh+vYNJMMRpJ4CCt8vEjamclO0n/zhCRQuGA3Sqcyhdv0sblZDL71hpJUfKzHACx2g1RZQTQZFUR1Vmj7RQuHXtMaFQVhSTi7QI=; Path=/; Domain=.mutua.es; HttpOnly; SameSite=None; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "ticket=26577201541611fffe631943468a9c9; Path=/Expedientes; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "contextInfo=0-0-0-0-0-0-null-0-0-0-null-false-false-null; Path=/Expedientes; Secure; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "MutuaF=1499731884.20480.0000; path=/; Httponly"
+            },
+            {
+              "name": "server-timing",
+              "value": "dtSInfo;desc=\"1\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=16070400; includeSubDomains"
+            },
+            {
+              "name": "x-cdn",
+              "value": "Imperva"
+            },
+            {
+              "name": "x-iinfo",
+              "value": "11-3365258-3365266 PNNN RT(1731515083463 333) q(0 1 1 -1) r(8 8) U24"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "LtpaToken2",
+              "value": "XV0+on8+fFr/at27DA9JgLaP8nSq7hN9r46CJ/XgfTOo90+bRdz2MEDAfpv3Kq9I5wvwIiYtu7Rs9PZWsyW/HjCVHENWcxtH7mjGvdS/v1MR6wVtE7RrNw/naGXNpwEmh7eUd5e6hqrWV76RNNFOf0cZKIG7RzBW1qXkrHD23yYa4eSDHtc6cNEzZ89AtZKDc2NKJcbhC8CG1qdY/hJW6JZEGMBxxEtkBPpiyAMmOy2jOmnP0DA9O6hnVBFFeBsXXWWULRvuXHkwwEKUW+7cJcvA4hyNKqsIiD+yyJmJ06uqLm7POmjQl4XjByispDl4L+GnjjFb38hFKWbwIIqP7VxWjorZ3WhNCxjRhgq9NYqFansg5hDmWvoZsrWTJsteHPvD+ntsKlw/+J1+dGpkUnbBVMRjFY0eR38p1WXr++NFTc0nW+IeLqzZ3IFh5uVVyLhzd1w2EF5OEAyJGaK1uDuCj/yAm0x9E1xTaD5FD3mgEbR8BwgMk6phv/adESnl9TEjjn6VSNg+b8YCxiESRwMB74Owpb5mLtAVCaE9YhQZ/cQ2mUTZ9D2ihTKe3RonJ6dRAqX77/4a//cy2SDReVCIVGw5el/Kd6+xwt6OtWSgO7hR/FJcs6yDr5hVG0ykN6nglZv/Yh+vYNJMMRpJ4CCt8vEjamclO0n/zhCRQuGA3Sqcyhdv0sblZDL71hpJUfKzHACx2g1RZQTQZFUR1Vmj7RQuHXtMaFQVhSTi7QI="
+            },
+            {
+              "name": "ticket",
+              "value": "26577201541611fffe631943468a9c9"
+            },
+            {
+              "name": "contextInfo",
+              "value": "0-0-0-0-0-0-null-0-0-0-null-false-false-null"
+            },
+            {
+              "name": "MutuaF",
+              "value": "1499731884.20480.0000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 63013,
+            "comment": "Los cuerpos de la respuesta no están incluidos."
+          },
+          "redirectURL": "https://www.mutua.es/Expedientes/showProcedureTasksList.do",
+          "headersSize": 1638,
+          "bodySize": 13130
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 784,
+          "receive": 0
+        },
+        "time": 784,
+        "_securityState": "secure",
+        "serverIPAddress": "45.60.87.131",
+        "connection": "443",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2024-11-13T17:24:45.530+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.mutua.es/Expedientes/showProcedureTasksList.do",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.mutua.es"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "FILTER_SELECT1-1501690=2; panelBusqueda=panelBoton; Avisos=1; Bandeja=1; Referenciado=1; Objetos=1; Warning=1; FILTER_SELECT_DOCUMENTS1-1501690=0; ticket=26577201541611fffe631943468a9c9; contextInfo=0-0-0-0-0-0-null-0-0-0-null-false-false-null; JSESSIONID=00008Drxgnp-TCfezeSzkrMEcbP:1c6ub9dsr; MutuaF=1499731884.20480.0000; dtCookie=v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0; visid_incap_1723595=kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA; nlbi_1723595=/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl; incap_ses_1123_1723595=GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg==; OIDCSTATE_was-ExpedientesEAR-www.mutua.es=rO0ABXNyABNqYXZhLnV0aWwuSGFzaHRhYmxlE7sPJSFK5LgDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAACHcIAAAACwAAAAN0AAZyZXFVcmx0AD9odHRwOi8vZXhwZWRpZW50ZXMubXV0dWEuZXMvRXhwZWRpZW50ZXMvY2hlY2tMb2dpblN1YnN0aXR1dGUuZG90AAZtZXRob2R0AANHRVR0AAdzdGF0ZUlkdAA5V1ZuRHNSYnp0cWJBTkp6cThGdDZ2TmJWbFJreXVVNEY5c3p4WFdIcU0zQV8xNzMxNTE0NzQyNzM2eA==_nIVn6wchxt7d6J8QaWCaDIjkytZ+vWiTfVSGVRjdt14=; nlbi_1723595_2147483392=FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE; rxVisitor=17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU; dtPC=1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0; rxvt=1731516542854|1731514469522; dtSa=false%7C_load_%7C2%7C_onload_%7C-%7C1731514742854%7C514742824_408%7Chttps%3A%2F%2Fwww.mutua.es%2FExpedientes%2FcheckLoginSubstitute.do%7C%7C%7C%7C; visid_incap_1845525=YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI; nlbi_1845525=ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0; incap_ses_1123_1845525=p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w==; reese84=3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs=; nlbi_1712818=vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT; visid_incap_1712818=xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK; incap_ses_1123_1712818=DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw==; OIDCSESSIONID_was-ExpedientesEAR-www.mutua.es=TFWPNrXpLzfMssAcXEs3UCqWpuotCYeiVHQs5GtAyUs; LtpaToken2=XV0+on8+fFr/at27DA9JgLaP8nSq7hN9r46CJ/XgfTOo90+bRdz2MEDAfpv3Kq9I5wvwIiYtu7Rs9PZWsyW/HjCVHENWcxtH7mjGvdS/v1MR6wVtE7RrNw/naGXNpwEmh7eUd5e6hqrWV76RNNFOf0cZKIG7RzBW1qXkrHD23yYa4eSDHtc6cNEzZ89AtZKDc2NKJcbhC8CG1qdY/hJW6JZEGMBxxEtkBPpiyAMmOy2jOmnP0DA9O6hnVBFFeBsXXWWULRvuXHkwwEKUW+7cJcvA4hyNKqsIiD+yyJmJ06uqLm7POmjQl4XjByispDl4L+GnjjFb38hFKWbwIIqP7VxWjorZ3WhNCxjRhgq9NYqFansg5hDmWvoZsrWTJsteHPvD+ntsKlw/+J1+dGpkUnbBVMRjFY0eR38p1WXr++NFTc0nW+IeLqzZ3IFh5uVVyLhzd1w2EF5OEAyJGaK1uDuCj/yAm0x9E1xTaD5FD3mgEbR8BwgMk6phv/adESnl9TEjjn6VSNg+b8YCxiESRwMB74Owpb5mLtAVCaE9YhQZ/cQ2mUTZ9D2ihTKe3RonJ6dRAqX77/4a//cy2SDReVCIVGw5el/Kd6+xwt6OtWSgO7hR/FJcs6yDr5hVG0ykN6nglZv/Yh+vYNJMMRpJ4CCt8vEjamclO0n/zhCRQuGA3Sqcyhdv0sblZDL71hpJUfKzHACx2g1RZQTQZFUR1Vmj7RQuHXtMaFQVhSTi7QI="
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0, i"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "FILTER_SELECT1-1501690",
+              "value": "2"
+            },
+            {
+              "name": "panelBusqueda",
+              "value": "panelBoton"
+            },
+            {
+              "name": "Avisos",
+              "value": "1"
+            },
+            {
+              "name": "Bandeja",
+              "value": "1"
+            },
+            {
+              "name": "Referenciado",
+              "value": "1"
+            },
+            {
+              "name": "Objetos",
+              "value": "1"
+            },
+            {
+              "name": "Warning",
+              "value": "1"
+            },
+            {
+              "name": "FILTER_SELECT_DOCUMENTS1-1501690",
+              "value": "0"
+            },
+            {
+              "name": "ticket",
+              "value": "26577201541611fffe631943468a9c9"
+            },
+            {
+              "name": "contextInfo",
+              "value": "0-0-0-0-0-0-null-0-0-0-null-false-false-null"
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "00008Drxgnp-TCfezeSzkrMEcbP:1c6ub9dsr"
+            },
+            {
+              "name": "MutuaF",
+              "value": "1499731884.20480.0000"
+            },
+            {
+              "name": "dtCookie",
+              "value": "v_4_srv_1_sn_EB37C53FD8EA977DB55F2EB52B8F9805_perc_100000_ol_0_mul_1_app-3A941f450271097e86_1_app-3A986453e5ac0260f3_0_rcs-3Acss_0"
+            },
+            {
+              "name": "visid_incap_1723595",
+              "value": "kM1RSfLcShuLuTqUEfZD5GPQNGcAAAAAQUIPAAAAAABiNmHUu+K2708tPXNgw1wA"
+            },
+            {
+              "name": "nlbi_1723595",
+              "value": "/+O0WMOSsm2MlecUByjyKQAAAAC9BIsWVTrd/2657kdT+QXl"
+            },
+            {
+              "name": "incap_ses_1123_1723595",
+              "value": "GcqfcwBIEHDiKo8RubKVD2PQNGcAAAAAVHpeWTLhBrZS78QTzvERwg=="
+            },
+            {
+              "name": "OIDCSTATE_was-ExpedientesEAR-www.mutua.es",
+              "value": "rO0ABXNyABNqYXZhLnV0aWwuSGFzaHRhYmxlE7sPJSFK5LgDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAACHcIAAAACwAAAAN0AAZyZXFVcmx0AD9odHRwOi8vZXhwZWRpZW50ZXMubXV0dWEuZXMvRXhwZWRpZW50ZXMvY2hlY2tMb2dpblN1YnN0aXR1dGUuZG90AAZtZXRob2R0AANHRVR0AAdzdGF0ZUlkdAA5V1ZuRHNSYnp0cWJBTkp6cThGdDZ2TmJWbFJreXVVNEY5c3p4WFdIcU0zQV8xNzMxNTE0NzQyNzM2eA==_nIVn6wchxt7d6J8QaWCaDIjkytZ+vWiTfVSGVRjdt14="
+            },
+            {
+              "name": "nlbi_1723595_2147483392",
+              "value": "FH43XKTBIgj91lgUByjyKQAAAADQIwBz1UDnD0jIdUVNcEtE"
+            },
+            {
+              "name": "rxVisitor",
+              "value": "17315144695229OUD2KQVRE1RJUUAJCQD84K9H8A82IRU"
+            },
+            {
+              "name": "dtPC",
+              "value": "1$514742824_408h-vTJMRCUTFNOACLUJEKRSVOCSSLOFCKBOA-0e0"
+            },
+            {
+              "name": "rxvt",
+              "value": "1731516542854|1731514469522"
+            },
+            {
+              "name": "dtSa",
+              "value": "false|_load_|2|_onload_|-|1731514742854|514742824_408|https://www.mutua.es/Expedientes/checkLoginSubstitute.do||||"
+            },
+            {
+              "name": "visid_incap_1845525",
+              "value": "YZTVJ42zQUWnqQ/rrSRBTWTQNGcAAAAAQUIPAAAAAADDsdkdQGsI/UJ3r5PfpiYI"
+            },
+            {
+              "name": "nlbi_1845525",
+              "value": "ZN0ybHh1UTY0BabF12gUogAAAABSMqPWcTAFqMVYizFbJYE0"
+            },
+            {
+              "name": "incap_ses_1123_1845525",
+              "value": "p/Y+GYxEejrhK48RubKVD2XQNGcAAAAAjuP5MytlN7HME3dwpXAU/w=="
+            },
+            {
+              "name": "reese84",
+              "value": "3:GdWOPX3w+QxZhbZaOVbo1Q==:Ip/HL8kfiw1Gh/hV4J7lU3y18EbpvSRBSPMgcZ729LhFZpeqD7TWMag8cZ9JDM6hsSS5VpVjLQ+wYX3DuMNXlhPXkeT3jvqYKgPHwxxxh6U/+h3Adek5GTPasLsjbkth42PYX+1w25eY0phK90YegXALigNlzGZssmAHvZWwD1MAKQsR13xiId1+fYk2M2Ikl17Yw+SrfRSqMvd4QrXQLEYj8vpqNJTvIRXSL/0+7VbP1uKEy7YHYedfkn77RZOCojjc8M/T4fcPqYbgDgClvdWDfbwhQHq7z0RSPBqBYbhl+eXO9qsfLB6wMR7q0l1agbKWlIe1Xw4bqomBHkFuvW/XNr1+pF2iHaW6ckkOm8aJA0bjHg86399YDiK3K3HmIF3b05usXID4In7bKFDMX1VUfUmaYdiK/5u4uR27F7TYG/Tik7KzgttReN2Y8b6iQsOFH8w4tJX4bXT/gdi4vq9lhz+QrtiWEswtagGg/W8=:cAslGrpzOxg3b8eWntB0M2sqFOKpSvagdgS8FImZOOs="
+            },
+            {
+              "name": "nlbi_1712818",
+              "value": "vPYDWKlBuFhbNfeFs4R/GAAAAACX/6XRv6MbHPJm3fKbD0QT"
+            },
+            {
+              "name": "visid_incap_1712818",
+              "value": "xnSQyU1KRNy7CvjaBOPUGG7QNGcAAAAAQUIPAAAAAACFt6f0h8ZQBuskBo6ln/EK"
+            },
+            {
+              "name": "incap_ses_1123_1712818",
+              "value": "DXpMMXZImEsENI8RubKVD27QNGcAAAAAvG7GdaWFYoo7Iok0vhReEw=="
+            },
+            {
+              "name": "OIDCSESSIONID_was-ExpedientesEAR-www.mutua.es",
+              "value": "TFWPNrXpLzfMssAcXEs3UCqWpuotCYeiVHQs5GtAyUs"
+            },
+            {
+              "name": "LtpaToken2",
+              "value": "XV0+on8+fFr/at27DA9JgLaP8nSq7hN9r46CJ/XgfTOo90+bRdz2MEDAfpv3Kq9I5wvwIiYtu7Rs9PZWsyW/HjCVHENWcxtH7mjGvdS/v1MR6wVtE7RrNw/naGXNpwEmh7eUd5e6hqrWV76RNNFOf0cZKIG7RzBW1qXkrHD23yYa4eSDHtc6cNEzZ89AtZKDc2NKJcbhC8CG1qdY/hJW6JZEGMBxxEtkBPpiyAMmOy2jOmnP0DA9O6hnVBFFeBsXXWWULRvuXHkwwEKUW+7cJcvA4hyNKqsIiD+yyJmJ06uqLm7POmjQl4XjByispDl4L+GnjjFb38hFKWbwIIqP7VxWjorZ3WhNCxjRhgq9NYqFansg5hDmWvoZsrWTJsteHPvD+ntsKlw/+J1+dGpkUnbBVMRjFY0eR38p1WXr++NFTc0nW+IeLqzZ3IFh5uVVyLhzd1w2EF5OEAyJGaK1uDuCj/yAm0x9E1xTaD5FD3mgEbR8BwgMk6phv/adESnl9TEjjn6VSNg+b8YCxiESRwMB74Owpb5mLtAVCaE9YhQZ/cQ2mUTZ9D2ihTKe3RonJ6dRAqX77/4a//cy2SDReVCIVGw5el/Kd6+xwt6OtWSgO7hR/FJcs6yDr5hVG0ykN6nglZv/Yh+vYNJMMRpJ4CCt8vEjamclO0n/zhCRQuGA3Sqcyhdv0sblZDL71hpJUfKzHACx2g1RZQTQZFUR1Vmj7RQuHXtMaFQVhSTi7QI="
+            }
+          ],
+          "queryString": [],
+          "headersSize": 3888
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Wed, 13 Nov 2024 16:24:45 GMT"
+            },
+            {
+              "name": "x-oneagent-js-injection",
+              "value": "true"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "pragma",
+              "value": "No-cache"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache,no-store,max-age=0"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=UTF-8"
+            },
+            {
+              "name": "content-language",
+              "value": "es-ES"
+            },
+            {
+              "name": "set-cookie",
+              "value": "contextInfo=0-0-0-0-0-0-null-1-0-0-null-false-false-null; Path=/Expedientes; HttpOnly"
+            },
+            {
+              "name": "set-cookie",
+              "value": "FILTER_SELECT1-1501690=2; Path=/Expedientes"
+            },
+            {
+              "name": "set-cookie",
+              "value": "panelBusqueda=panelBoton; Path=/Expedientes"
+            },
+            {
+              "name": "server-timing",
+              "value": "dtSInfo;desc=\"1\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=16070400; includeSubDomains"
+            },
+            {
+              "name": "x-cdn",
+              "value": "Imperva"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-iinfo",
+              "value": "11-3365258-3365266 PNYN RT(1731515083463 1150) q(0 0 0 -1) r(2 2) U24"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "contextInfo",
+              "value": "0-0-0-0-0-0-null-1-0-0-null-false-false-null"
+            },
+            {
+              "name": "FILTER_SELECT1-1501690",
+              "value": "2"
+            },
+            {
+              "name": "panelBusqueda",
+              "value": "panelBoton"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 63013,
+            "text": "\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\">\n\n\n\n\n\n\n\n\n\n\n\n\n\t<head><script src=\"/Lill-out-Banquell-what-Bane-Wher-ther-I-prose-wi\" async></script>\n\t\t<title>Mutua Madrile&ntilde;a - Sistema de Gesti&oacute;n de Expedientes</title>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\t\t<meta name=\"description\" content=\"Sistema de Gesti&oacute;n de Expedientes. Mutua Madrile&ntilde;a\"/>\n\t\t<!-- Hojas de estilos -->\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t<!-- Hacks y Bugs Explorer - Versiones 7 e inferiores - Windows -->\n\t\t<!--[if lte IE 7]>\n\t\t\t<link rel=\"stylesheet\" href='/Expedientes/ispac/skin2/css/estilos-ie.css' type=\"text/css\" media=\"screen, projection\" />\n\t\t<![endif]-->\n\t\t<!--[if lte IE 6]>\n\t\t\t<script src='/Expedientes/ispac/skin2/scripts/jsNewStyles/DD_belatedPNG.js' type=\"text/javascript\"></script>\n\t\t<![endif]-->\n\t\t\n\t\t<script type=\"text/javascript\" src=\"/Expedientes/ruxitagentjs_ICANVfhqru_10301241007103824.js\" data-dtconfig=\"app=941f450271097e86|cuc=78dj8p8v|mel=100000|featureHash=ICANVfhqru|dpvc=1|md=mdcc1=a#contenedor div:nth-child(50) div acronym acronym|lastModification=1730971293801|tp=500,50,0|rdnt=1|uxrgce=1|agentUri=/Expedientes/ruxitagentjs_ICANVfhqru_10301241007103824.js|reportUrl=/Expedientes/rb_bf13163sva|rid=RID_-1795423568|rpid=1277471992|domain=mutua.es\"></script><link rel=\"stylesheet\" media=\"print\" href='/Expedientes/ispac/skin2/css/newStylesPrint.css'/>\n\t\t\n\t\t<link rel=\"shortcut icon\" href='/Expedientes/ispac/skin2/img/favicon.ico' type=\"image/x-icon\"/>\n  \t\t<link rel=\"icon\" href='/Expedientes/ispac/skin2/img/favicon.ico' type=\"image/x-icon\"/>\n  \t\t\n  \t\t<!-- JQUERY -->\n\t     \n\t\t \n  \t\t\n\t\t<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/jsNewStyles/funciones.js'></script>\t\t\n\t\t\n\t    \n\t    \n\t    \n\t\t<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/saludo.js'></script>\n\t\t<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/foldernav.js'></script>\n\t\t<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/desplegable.js'></script>\n\t\t\n\t    <script>\n\t\n\t    \tif (window.name!=\"popup\")\n\t\t    \twindow.name=\"Expedientes\";\n\t\t    \n\t    </script>\n\n\t\t<!-- DWR -->\n\t\t\n\t\t\n\t\t\n\t    <script type=\"text/javascript\">\n\t\t\tvar resourcesPath=\"/recursos/apps\";\n\t\t\tif (window.location.protocol == \"https:\")\n\t\t\t\tresourcesPath=\"/recursos/apps\";\n\t\t\tvar contextPath = \"/Expedientes\";\n\t\t</script>\t\t\n\t</head> \n   <body>\n   \t\n\t\n  \n  \n  <!-- header -->\n\t\n  <!-- fin header -->\n  \n  <!--tabla que alberga todos los contenidos -->  \n  \n  <div id=\"contenedor\">\t \n\t \t \n\t    \n\t\t\t\n\n\n\n\n\n\n\n\n\n\n \n \n \n\n\n\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>???mensaje.title???</title>\n<link rel=\"shortcut icon\" href=\"/recursos/apps/img/mutuaMad.ico\" type=\"image/x-icon\" />\n\n<!--  CSS -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<link href=\"/recursos/apps/css/jquery-datatable/mutua_table_jui.css\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"/recursos/apps/css/jquery-ui-mutua/jquery-ui-mutua.css\" rel=\"stylesheet\" type=\"text/css\" /> \n<link href=\"/recursos/apps/css/jquery-timepicker/jquery.timepicker.css\" rel=\"stylesheet\" type=\"text/css\" />\n<!--[if lte IE 7]>\t\t\n\t<link rel=\"stylesheet\" href=\"/recursos/apps/css/estilos-ie.css\" type=\"text/css\" media=\"screen, projection\" />\n<![endif]-->\n\n\t\n\n\n\n\n<!-- Estilos SGE -->\n\n<link rel=\"stylesheet\" href='/Expedientes/ispac/skin2/css/reset.css'  type=\"text/css\" media=\"screen, projection\" />\n<link rel=\"stylesheet\" href=\"/Expedientes/ispac/skin2/css/layout.css?_=9.44.2\" type=\"text/css\" media=\"screen, projection\" />\n<link rel=\"stylesheet\" href=\"/Expedientes/ispac/skin2/../scripts/notify/toastr.min.css?_=9.44.2\" type=\"text/css\" />\n<link rel=\"stylesheet\" href=\"https://aplicaciones.mutua.es/recursos/gi/3.1.5/assets/fontawesome/fontawesome-all.css\" type=\"text/css\" />\n\n<link rel=\"stylesheet\" href=\"/Expedientes/ispac/skin2/css/mm-combobox.css?_=9.44.2\" type=\"text/css\" media=\"screen, projection\" />\n\n\n\n\n\t\n\t\t\n\n\n\t\t\n\t\t\t\n\t\n\t\n<!-- SCRIPTS -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<script src=\"/recursos/apps/js/jquery-2.2.4.min.js\" type=\"text/javascript\" charset=\"UTF-8\"></script>\n\n\n<script src=\"/recursos/apps/js/jquery-ui-1.9.2.min.js\" type=\"text/javascript\" charset=\"UTF-8\"></script>\n<script src=\"/recursos/apps/js/jquery.ui.datepicker-es.js\" type=\"text/javascript\" charset=\"UTF-8\"></script>\n<script src=\"/recursos/apps/js/jquery.dataTables.min.js\" type=\"text/javascript\"></script>\n<script src=\"/recursos/apps/js/validacionesMutua.js\" type=\"text/javascript\" charset=\"UTF-8\"></script>\n<script src=\"/recursos/apps/js/common-mutua.js\" type=\"text/javascript\" charset=\"UTF-8\"></script>\n<script src=\"/recursos/apps/js/jquery-ui-timepicker-addon.js\" type=\"text/javascript\"></script>\n<!--[if lte IE 6]>\n\t<script src=\"/recursos/apps/js/DD_belatedPNG.js\" type=\"text/javascript\"></script>\n\t<script src=\"/recursos/apps/js/form.js\" type=\"text/javascript\"></script>\n<![endif]-->\n\n\t\n\n\n<!-- Scripts SGE -->\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/jquery-migrate-1.4.1.min.js'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/prototype.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/scriptaculous/scriptaculous.js'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/ajax/ajaxtags.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/ajax/ajaxtags_controls.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/ajax/ajaxtags_parser.js'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/menus.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/sorttable.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/utilities_6_18.js?_=9.44.2'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/utildoc.js?_=9.44.2'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/unfoldMenu.js'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/overlibmws/overlibmws.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/overlibmws/overlibmws_crossframe.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/overlibmws/overlibmws_iframe.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/overlibmws/overlibmws_hide.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/overlibmws/overlibmws_shadow.js'></script>\n\n<!-- DWR -->   \n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/dwr/util.js'></script>\n<script type='text/javascript' src='/Expedientes/dwr/engine.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/notify/toastr.min.js'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/mm-combobox.js?_=9.44.2'></script>\n\n\n\n\n\n<!-- JQuery -->\n<script>\n\tvar $j = jQuery.noConflict();\n\t\n\tvar tokenFromSessionGlobal = 'OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK';\n\tvar ssoUrl ='https://sso.mutua.es';\n\t\n</script>\n\n\n\n\n\n\n\n\n\n<script type=\"text/javascript\">\n\tvar contextPath=\"/Expedientes\";\n\tvar resourcesPath=\"/recursos/apps\";\n \tif (window.location.protocol == \"https:\")\n\t\tresourcesPath=\"/recursos/apps\";\n\tvar maxFileSize = \"100000000\";\n</script>\t\t\t \n\n</head>\n<body>\n<input type=\"hidden\" name=\"OWASP-CSRFTOKEN\" value=\"T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\"/>\n\t<div id=\"contCabecera\">\n<!-- \t\t<p id=\"logo\"><strong> -->\n\n\n<!-- \t\t</strong></p> -->\n<!-- \t\t<h1> -->\n<!-- \t\t\t<strong>extranet</strong> -->\n\n\n<!-- \t\t</h1> -->\n\n<!-- \t\t\t<p class=\"usuario\"> -->\n<!-- \t\t\t\t<strong>Usuario:</strong> -->\n\n<!-- \t\t\t</p> -->\n\n<!-- \t\t<p class=\"version\"> -->\n<!-- \t\t\t<strong>Versi&oacute;n:</strong> -->\n\n<!-- \t\t</p> -->\n<!-- \t</div> -->\n\n<!-- \t<div id=\"contenidoCentral\"> -->\n<!-- \t\t<div id=\"contenidoIzq\"> -->\n<!-- \t\t\t<div class=\"menu\"> -->\n\n<!-- \t\t\t</div> -->\n<!-- \t\t</div> -->\n\n<!-- \t\t<div id=\"contenidoDer\"> -->\n\n<!-- \t\t</div> -->\n\t</div>\n\n</body>\n</html>\n\t   \n   \t\t\n \n\n\n\n\n\n\n<script type='text/javascript' src='/Expedientes/dwr/interface/ClausulaEticaService.js'></script>\n\n\t<div id=\"cabecera\" class=\"\">\t\t\n\t\t<p id=\"logo\"><a href=\"#\"><img src='/Expedientes/ispac/skin2/imgNewStyles/logo-mutuamad.png' alt=\"Mutua Madrile&ntilde;a Automovilista\" /></a></p>\n\t\t<h1 id=\"titulo\">Sistema de Gesti&oacute;n de Expedientes</h1>\n\t\t\t\t\t\t\t\t\n\t\t <table width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"right\" valign=\"top\" class=\"version\">\n\t\t\t    \t\n\t\t\t\t    \t<span class=\"indicator\">\n\t\t\t\t    \t\t&iexcl;Nuevo! \n\t\t\t\t    \t</span>&nbsp;\n\t\t\t    \t\n\t\t\t    \t<span class=\"hand\" title=\"Hist&oacute;rico de versiones\" onclick=\"javascript:window.open('showSGEVersions.do','popup','height=660,width=680,scrollbars')\">\n\t\t\t    \t\tVersi&oacute;n 9.44.2\n\t\t\t    \t</span>\n\t\t\t    </td>\n\t\t\t</tr>\n\t\t\t\n\t\t\t</table>\t\n\t\t\n\t\t\t<input type=\"hidden\" id=\"passwordExpirationDays\" value=\"\"\t/>\t\n\t\t\n\t\t\t<input type=\"hidden\" id=\"idClausulaUsuario\" value=\"\" />\t\n\t\t\t<input type=\"hidden\" id=\"textoClausulaUsuario\" value=\"\" />\t\n\t\t\t\n\t</div>\t\t\n\n \t\t\t \t\t\t\n\t\n\t\n\t\t<div class=\"user_menu\">\t\n\t\t\t<div class=\"izq\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t \n\t\t\t\t\n\t\t\t\t<acronym>\n\t\t\t\t\t<acronym class=\"f8f1838c-dc8d-4abb-b09f-39aa752fac5a\" title=\"Información Usuario\" id=\"f8f1838c-dc8d-4abb-b09f-39aa752fac5a\">\n\n\t\t\t\t\t\tSTELLION LAW, S.L.P. MADRID\n\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"f8f1838c-dc8d-4abb-b09f-39aa752fac5a\",doPost: false,parameters: \"uid=f8f1838c-dc8d-4abb-b09f-39aa752fac5a\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t</acronym>\n\t\t\t\t\n\t\t\t\t<!--\n\t\t\t\tSTELLION LAW, S.L.P. MADRID \n\t\t\t\t-->\n\t\t\t\t\t\t\t\t\n\t\t\t</div>\t\n\t\t\t\t\n\t\t\t<div class=\"der\">\t\n\t\t\t\t\n\t\t\t\t<ul class=\"opciones\">\n\t\t\t\t\t<li class=\"first\">\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"/Expedientes/ispac/skin2/imgNewStyles/ico_calendario.gif\" onclick=\"javascript:window.open('calcularFechas.do','popup','height=330,width=680')\">\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a href=\"/Expedientes/herramientas.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\">Herramientas</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t      \n\t\t\t\t        \t\t\t\t\t\t\n\t\t\t\t         \n\t\t\t         \t\t\t           \n\t\t\t        </li>\t\t\t\t\t\n\t\t\t        <li>\n\t\t\t        \t\n\t\t\t        \t<a href=\"/Expedientes/showProcedureTasksList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\" id=\"home\">Inicio</a>\n\t\t\t        </li>\n\t\t\t        <li>\t\t\t        \t\n\t\t\t\t        <a href=\"/Expedientes/ibm_security_logout\" onclick=\"javascript:return exit();\" id=\"exit\">\n\t\t\t\t\t    \tSalir\n\t\t\t\t\t    </a>\n\t\t\t        </li>  \t\t        \n\t\t\t\t</ul>\t\t\t\t\n\t\t\t</div>\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t \t\t\t  \n\t\t\t<table width=\"100%\" style=\"border-bottom:1px solid #E7E7E7;border-top:1px solid #E7E7E7; \">\n\t\t\t   <tr>\n\t\t\t\t   \t<td colspan=\"3\" style=\"font: 12px Verdana, Arial, Helvetica, Sans-serif; color:#CD0404;font-weight: bold;font-size: small; vertical-align: bottom;\" class=\"centrado\">\n\t\t\t\t   \t\t13/11/2024 07:54:03: Estimado colaborador, te informamos que desde el día 15 de noviembre, el acceso a la aplicación estará restringido entre las 23:30 y las 7.00. Lamentamos los inconvenientes que esto pueda suponerte y agradecemos tu comprensión.\n\t\t\t\t   \t</td>\n\t\t\t   </tr>\n\t\t   </table>\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\n\t<div id=\"content-cols\">\n\t\t<div id=\"col1\">\n\t\t\n\t\t\t\n           \t\n\t\t\t\t\n\n\n\n\n\n\n\n\n<script language=\"javascript\">\n\tfunction submitformSiniestro() {\n\t\tvar numSiniestro = document.getElementById('numSiniestro');\n\t\tvar valNumSiniestro = numSiniestro.value.trim() || '';\n\t\tnumSiniestro.value = valNumSiniestro;\n\t\t\n\t\tif (valNumSiniestro.length > 0 & valNumSiniestro.length < 3) {\n\t\t\talert('La longitud m\\u00EDnima del n\\u00FAmero de siniestro es 3.');\n\t\t\treturn false;\n\t\t}\n\t\t\n\t\tif (valNumSiniestro.length >= 3 & !/^\\d+$/.test(valNumSiniestro)) {\n\t\t\talert('El n\\u00FAmero de siniestro solo puede contener d\\u00EDgitos.');\n\t\t\treturn false;\n\t\t}\n\t\t\n\t\tvar numPoliza = document.getElementById('numPoliza');\n\t\tvar valNumPoliza = numPoliza.value.trim() || '';\n\t\tnumPoliza.value = valNumPoliza;\n\t\tif (valNumPoliza.length > 0 & !/^\\d+$/.test(valNumPoliza)) {\n\t\t\talert('El n\\u00FAmero de p\\u00F3liza solo puede contener d\\u00EDgitos.');\n\t\t\treturn false;\n\t\t}\n\t\t\n\t\tvar matricula = document.getElementById('matricula');\n\t\tvar valMatricula = matricula.value.trim() || '';\n\t\tmatricula.value = valMatricula;\n\t\tif (valMatricula.length > 0 & !/^[A-Za-z0-9]*$/.test(valMatricula)) {\n\t\t\talert('La matr\\u00EDcula solo puede contener d\\u00EDgitos y letras.');\n\t\t\treturn false;\n\t\t}\n\t\t\n\t\tvar panelBusqueda = getCookie(\"panelBusqueda\");\n\t\tif(panelBusqueda == \"panelCombo\" && window.mostrarControl == true ){\n\t\t\tvar controlIdPcd = document.getElementById('selectIdPcd');\n\t\t\tsetID_PCD(controlIdPcd.value);\n\t\t}\n\t\t\n\t\tsubmitForm();\n\t}\n\t\n\tfunction submitForm() {\n\t\tdest = \"/Expedientes\" + '/searchForm.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK';\n\t\tif(validateForm()) {\n\t\t\t\tshowFrame('workframe','wait.jsp',300,60);\n\t\t\t\tdocument.queryformSiniestro.action = dest;\n\t\t\t\tdocument.queryformSiniestro.submit();\t\t\t\n\t\t}else {\n\t\t\talert('Debe introducir al menos un par\\u00E1metro de b\\u00FAsqueda en el formulario.');\t\t\t\n\t\t}\n\t}\n\t\n\tfunction submitformSiniestroAtribuidos ()\n\t{\n\t\tsetID_PCD(\"1500018\")\n\t\tsubmitForm();\n\t}\t\n\t\n\tfunction validateForm() {\n\t\tvar paramBusqueda = document.getElementById('numSiniestro').value.trim() \n\t\t\t\t\t\t|| document.getElementById('numPoliza').value.trim() \n\t\t\t\t\t\t|| document.getElementById('matricula').value.trim() \n\t\t\t\t\t\t|| '';\n\t\t\n\t\treturn (paramBusqueda.length > 0);\n\t}\n\t\n\tfunction processKeyEvent(event){\n\t\tif (event.keyCode == 13){\n\t\t\tsubmitformSiniestro();\n\t\t}\n\t\t\n\n\t}\n\t\n\tfunction acceptNum(){\n\t\tvar key = event.keyCode;\n\t\tif(key == 13){\n\t\t\tsubmitformSiniestro();\n\n\t\t}\n\t\treturn ((key >= 48 && key <= 57) || key == 46);\n\t}\n\t\n\tfunction setID_PCD(newValue){\n\t\tdocument.getElementById(\"menuSearchID_PCD\").value = newValue;\n\t}\n\t\n\tfunction setCookie(cname, cvalue) {\n\t    document.cookie = cname + \"=\" + cvalue + \"; \";\n\t}\n\t\n\tfunction getCookie(cname) {\n\t    var name = cname + \"=\";\n\t    var ca = document.cookie.split(';');\n\t    for(var i=0; i<ca.length; i++) {\n\t        var c = ca[i];\n\t        while (c.charAt(0)==' ') c = c.substring(1);\n\t        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);\n\t    }\n\t    return \"\";\n\t}\n\t\t\n\t\n\tfunction checkCookie() {\n\t\tif( window.mostrarControl  != true ){\n\t\t\t$j(\"#buscarAtribuido\").hide();\n\t\t\t$j(\"#divConfigIdPcd\").hide();\n\t\t} else {\n\t\t  \tvar idPcd = getCookie(\"controlIdPcd\");\n\t\t\tvar controlIdPcd = document.getElementById('selectIdPcd');\n\t\t\tcontrolIdPcd.value = idPcd;\n\t\t\t\n\t\t\tvar panelBusqueda = getCookie(\"panelBusqueda\");\n\t\t\tif(panelBusqueda == \"panelBoton\"){\n\t\t\t\t$j(\"#buscarAtribuido\").show();\n\t\t\t\t$j(\"#divConfigIdPcd\").hide();\n\t\t\t} else {\n\t\t\t\t$j(\"#buscarAtribuido\").hide();\n\t\t\t\t$j(\"#divConfigIdPcd\").show();\n\t\t\t}\n\t\t}\n\t  \n\t}\n\t\n\tfunction configurePanelBoton(){\n\t\t$j(\"#buscarAtribuido\").show();\n\t\t$j(\"#divConfigIdPcd\").hide();\n\t\tsetCookieInfinite(\"panelBusqueda\",\"panelBoton\");\n\t\t$j( \"#configPanel\" ).dialog(\"close\");\t\n\t}\n\t\n\tfunction configurePanelCombo(){\n\t\t$j(\"#buscarAtribuido\").hide();\n\t\t$j(\"#divConfigIdPcd\").show();\t\n\t\tsetCookieInfinite(\"panelBusqueda\",\"panelCombo\");\n\t\t$j( \"#configPanel\" ).dialog(\"close\");\t\n\t}\n\t\n\tfunction cambiarCombo() {\n\t\tvar controlIdPcd = document.getElementById('selectIdPcd');\n\n\t\tvar idPcd = controlIdPcd.value\n\t\tsetCookieInfinite(\"controlIdPcd\",idPcd);\n\t\tsetID_PCD(idPcd);\n  \t};\n  \n\t$j(document).ready(function() {\n\t\tcheckCookie();\n\t\t$j( \"#configPanel\" ).dialog({autoOpen: false, \n\t\t\t\t\t\t\t\t\t minWidth: 450, \n\t\t\t\t\t\t\t\t\t resizable: false\n\t\t});\n\t});\n\t\t\n\t\n\tfunction panelConfig() {\n      \t  $j( \"#configPanel\" ).dialog(\"open\");\n    };\n\t\n\n\t\n\n</script>\n<!--- BUSCADOR -->\n\n\n\n\n\t\t<form name=\"queryformSiniestro\"  method=\"get\">\n\t\t<input type=\"hidden\" name=\"OWASP-CSRFTOKEN\" value=\"T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\"/>\n   \n\t\t\t\n\t\t\t\t\n\t\t\t<div class=\"mod-nav\">\n\t\t\t\t<h2>B&uacute;squeda</h2>\n\t\t\t\t\n\t\t\t\t<div class=\"mod-nav-txt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<label for=\"soloExp\" class=\"radio-check\">\n\t\t\t\t\t\t<input value=\"2\" checked=\"checked\" onclick='javascript:setID_PCD(\"\")' name=\"domain\" type=\"radio\" class=\"radio\"/>\n\t\t\t\t\t\t<span>S&oacute;lo mis expedientes</span>\n\t\t\t\t\t</label>\n\t\t\t\t\t\n\t\t\t\t\t<fieldset>\n\t\t\t\t\t\t<legend><span>Expedientes</span></legend>\n\t\t\t\t\t\t<label for=\"numSiniestro\">\n\t\t\t\t\t\t\t<span>N&ordm; de siniestro:</span>\n\t\t\t\t\t\t\t<input id=\"numSiniestro\" onkeypress=\"processKeyEvent(event)\" class=\"input\" type=\"text\" name=\"values(spac_expedientes:NUMSINIESTRO)\" size=\"11\" maxlength=\"11\"/>\n\t\t\t\t\t\t\t<input class=\"select\" type=\"hidden\" name=\"types(spac_expedientes:NUMSINIESTRO)\" value=\"string\"/>\n\t\t\t\t\t\t</label>\n\t\t\t\t\t\t<input value=\"=\" type=\"hidden\" name=\"operators(spac_expedientes:NUMPOLIZA)\"/>\n\t\t\t\t\t\t<label for=\"numPoliza\">\n\t\t\t\t\t\t\t<span>N&ordm; de p&oacute;liza:</span>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<input id=\"numPoliza\" onkeypress=\"return acceptNum();\" class=\"input\" type=\"text\" name=\"values(spac_expedientes:NUMPOLIZA)\" size=\"10\" maxlength=\"10\"/>\n\t\t\t\t\t\t\t<input class=\"select\" type=\"hidden\" name=\"types(spac_expedientes:NUMPOLIZA)\" value=\"integer\"/>\n\t\t\t\t\t\t</label>\n\t\t\t\t\t\t<label for=\"matricula\">\n\t\t\t\t\t\t\t<span>Matr&iacute;cula:</span>\n\t\t\t\t\t\t\t<input id=\"matricula\" onkeypress=\"processKeyEvent(event)\" class=\"input\" type=\"text\" name=\"values(spac_expedientes:MATRICULA)\" size=\"9\" maxlength=\"9\"/>\n\t\t\t\t\t\t\t<input class=\"select\" type=\"hidden\" name=\"types(spac_expedientes:MATRICULA)\" value=\"string\"/>\n\t\t\t\t\t\t</label>\n\t\t\t\t\t\t<div id=\"divConfigIdPcd\" style=\"display: none;\">\n\t\t\t\t\t\t\t<label for=\"tipoObjeto\">\n\t\t\t\t\t\t\t\t<span>Objeto:</span>\n\t\t\t\t\t\t\t\t<select id=\"selectIdPcd\" onchange=\"javascript:cambiarCombo();\" style=\"width: 77px;\">\n\t\t\t\t\t\t\t\t  <option value=\"\">Todos</option>\n\t\t\t\t\t\t\t\t  <option value=\"3\">Siniestro</option>\n\t\t\t\t\t\t\t\t  <option value=\"1500018\">Atribuido</option>\n\t\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</fieldset>\n\t\t\t\t\t<input style=\"height: 1px;\" type=\"hidden\" name=\"operators(spac_expedientes:ID_PCD)\" value=\"=\"/>\n\t\t\t\t\t\n\t\t\t\t\t<input style=\"height: 1px;\" id=\"menuSearchID_PCD\" onkeypress=\"processKeyEvent(event)\" class=\"input\" type=\"hidden\" name=\"values(spac_expedientes:ID_PCD)\" size=\"\" maxlength=\"\" value=\"\"/>\n\t\t\t\t\t<input type=\"hidden\"  name=\"types(spac_expedientes:ID_PCD)\" value=\"fixedValue\"/>\n\t\t\t\t\t<input type=\"hidden\" name=\"idxml\" value='2'/>\n\t\t\t\t\t<div class=\"botones alignCenter\">\n\t\t\t\t\t\t<input onkeypress=\"processKeyEvent(event)\" onclick=\"javascript:submitformSiniestro();\" value=\"Buscar\" type=\"button\" class=\"btn\" id=\"buscar\"/>\t\t\t\t\t\n\t\t\t\t\t\t<input style=\"display: none;\" onkeypress=\"processKeyEvent(event)\" onclick=\"javascript:submitformSiniestroAtribuidos();\" value=\"Buscar Atribuido\" type=\"button\" class=\"btn\" id=\"buscarAtribuido\"/>\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<p class=\"flecha\"><a href=\"/Expedientes/selectSearch.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\">Otras b&uacute;squedas...</a></p>\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\t\n\t\t</form>\n\t\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t       \t\n\t\t\t\t\n\n\n\n\n\n\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/cookies.js'></script>\n\n\n<!--\n<script>\nfunction changeSkin() {\n\tif (document.FormChange.skin.value != \"\") {\n\t\tdocument.FormChange.action = getContext()+\"/\"+document.FormChange.action;\n\t\tdocument.FormChange.submit();\n\t} else {\n\t\talert(\"Elija una apariencia\");\n\t}\n}\n</script>\n\n-->\n\n\n\t\t\t\n\n<script>\n// les damos 30 d&iacute;as de vida a las cookies\nvar validez = 30;\nvar caduca = new Date(); \ncaduca.setTime(caduca.getTime() + (validez*24*60*60*1000));\n\nvar imgDespliegaAbajo = \"img/arrow_down.gif\";\nvar imgDespliegaArriba = \"img/arrow_up.gif\";\n\nfunction setCookieInfinite(name, newState){\n\tsetCookie(name,newState,caduca);\n}\n\nfunction plegarTr(name){\n\telement=document.getElementById(name);\n\tif (element==null)\n\t\treturn;\n\tdocument.getElementById(name).style.display='none';\n\tvar imgDespliega=document.getElementById('img'+name);\n\t//img=imgDespliega.src;\n\t//imgDespliega.src=img.replace(imgDespliegaArriba,imgDespliegaAbajo);\n}\nfunction desplegarTr(name){\n\n\telement=document.getElementById(name);\n\tif (element==null)\n\t\treturn;\n\tdocument.getElementById(name).style.display='block';\t\n\tvar despliega=document.getElementById('img'+name);\n\n\t//img=despliega.src;\n\t//despliega.src=img.replace(imgDespliegaAbajo,imgDespliegaArriba);\n\n}\n\nfunction tratarTr(name, desplegar){\n\tif (desplegar==1)\n\t\tdesplegarTr(name);\n\telse\n\t\tplegarTr(name);\n}\n\nfunction cambiarTr(name){\n\tvar nameState=getCookie(name);\n\t\n\tif (nameState!=null)\n\t{\n\t\tvar newState=(nameState==1)? 0:1;\n\t\t\n\t\tsetCookieInfinite(name,newState);\n\t\ttratarTr(name,newState);\n\t}\n}\n\nfunction desplegarMenu(name){\n\t\n\tvar cookie=getCookie(name);\n\tif (cookie!=null)\n\t\ttratarTr(name, cookie);\n\telse\n\t{\n\t\t\n\t\tsetCookieInfinite(name,1);\n\t\tdesplegarTr(name);\n\t}\n}\n\nfunction desplegarMenus(){\n\tdesplegarMenu('Avisos');\n\tdesplegarMenu('Bandeja');\n\tdesplegarMenu('Referenciado');\n\tdesplegarMenu('Objetos');\n\tdesplegarMenu('Warning');\n}\n</script>\n\n\n\n\n\t\t\n\n\t\t\t<div class=\"mod-nav desplegar\">\n\t\t\t\t<h2>Avisos <img src='/Expedientes/ispac/skin2/imgNewStyles/arrow_up.gif' alt=\"Ocultar informaci&oacute;n\" title=\"Ocultar informaci&oacute;n\" /></h2>\n\t\t\t\t<div class=\"mod-nav-txt\" id=\"Avisos\">\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n \t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"mod-nav desplegar\">\n\t\t\t\t\t\t\t<h2 style=\"margin-left: 5px;  margin-top: 5px; font-weight: bold; text-decoration: underline; background: initial; min-height: 0em; border: initial; text-align: left\">\n\t\t\t\t\t\t\t\tProcedimiento judicial\n\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"mod-nav-txt\" id=\"Warning\">\n\t\t\t\t\t\t\t<ul style=\"margin-top: -5px;\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteestadoaviso.gif' border=\"0\"/>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showWarningList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;idpcd=21&amp;type=3\" class=\"menu\">Ultimo día</a>\n\t\t\t\t\t\t\t\t\t\t(0)\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</li>\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramite_anulado.gif' border=\"0\"/>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showWarningList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;idpcd=21&amp;type=11\" class=\"menu\">Objeto anulado</a>\n\t\t\t\t\t\t\t\t\t\t(0)\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</li>\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramite_anulado.gif' border=\"0\"/>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showWarningList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;idpcd=21&amp;type=21\" class=\"menu\">Tarea cancelada</a>\n\t\t\t\t\t\t\t\t\t\t(0)\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</li>\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"mod-nav desplegar\">\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<h2 style=\"margin-left: 5px;  margin-top: 5px; font-weight: bold; text-decoration: underline; background: initial; min-height: 0em; border: initial; text-align: left\">\n\t\t\t\t\t\t\t\t\tRecobro\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"mod-nav-txt\" id=\"Warning\">\n\t\t\t\t\t\t\t\t<ul style=\"margin-top: -5px;\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/actualizar_tarea.gif' border=\"0\"/>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showWarningList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;idpcd=1500008&amp;type=8\" class=\"menu\">Actualización de tarea</a>\n\t\t\t\t\t\t\t\t\t\t\t(0)\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tarea_reactivada.gif' border=\"0\"/>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showWarningList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;idpcd=1500008&amp;type=16\" class=\"menu\">Tarea reactivada</a>\n\t\t\t\t\t\t\t\t\t\t(0)\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</li>\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"mod-nav desplegar\">\n\t\t\t\t<h2>Bandeja de entrada <img src='/Expedientes/ispac/skin2/imgNewStyles/arrow_up.gif' alt=\"Ocultar informaci&oacute;n\" title=\"Ocultar informaci&oacute;n\" /></h2>\t\t\t\n\t\t\t\t<div class=\"mod-nav-txt\" id=\"Bandeja\">\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/bandeja_entrada.gif' border=\"0\" />\n\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/pixel.gif' border=\"0\" width=\"3px\" /> \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showInbox.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\">Bandeja de entrada</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\t\n\t\t\n\t\n\t\n\t\t<div class=\"mod-nav desplegar\">\n\t\t\t<h2>Objetos<img src='/Expedientes/ispac/skin2/imgNewStyles/arrow_up.gif' alt=\"Ocultar informaci&oacute;n\" title=\"Ocultar informaci&oacute;n\" /></h2>\n\t\t\t<div class=\"mod-nav-txt\" id=\"Objetos\">\n\t\t\t\t<ul>\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/others.gif' border=\"0\"> \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showProcessList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;pcdId=1500008\">Recobro</a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\t\n\t\t\n\t\t<script>\n\t\t\tdesplegarMenus();\n\t\t</script>\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t</div>\n\t\t<div id=\"col2\">\n\t\t\t<div class=\"contenido\">\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t           \t\n\t\t\t\t\t\n<p>\n\n\n\n\n\n\n\n\n\n    \n\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/coolmenus4.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/coolmenus3.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/cm_addins.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/coolmenu4-config.js'></script>\n\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/coolmenu-config.js'></script>\n<script type=\"text/javascript\" src='/Expedientes/ispac/skin2/../scripts/coolmenuScheme-config.js'></script>\n\n<div class=\"mod-menu-top\">\n<ul>\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t<!-- Fin Hitos --> \n\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<span id=\"newTask\"></span>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<li onmouseout=\"showSelect();\"><a href=\"#\" class=\"btn-round\" onclick=\"return clickreturnvalue()\"  onmouseover=\"hideSelect();dropdownmenu(this, event, 'desplegable1');\"><span>Acciones Múltiples</span></a><ul style=\"margin-left:0px;\" onmouseover=\"hideSelect()\" onmouseout=\"showSelect();\" id=\"desplegable1\"  class=\"desplegable2\"><li><a style=\"width: 95%\" href=\"javascript:doBatchProcess('asignRespTaskBatchProcess');\"  id=\"ASIGN_RESP_TASK_BATCH_PROCESS_LINK\"  onmousedown=\"flagDownUp=517817169\"  onmouseup=\"if(flagDownUp==517817169)javascript:hideStrutMenu();\"  onmouseover=\"flagDownUp=0;hideSelect()\" onmouseout=\"flagDownUp=0;showSelect();\">Asignar responsable</a></li><li><a style=\"width: 95%\" href=\"javascript:doBatchProcess('closeTaskBatchProcess');\"  id=\"CLOSE_TASKS_BATCH_PROCESS_LINK\"  onmousedown=\"flagDownUp=717817169\"  onmouseup=\"if(flagDownUp==717817169)javascript:hideStrutMenu();\"  onmouseover=\"flagDownUp=0;hideSelect()\" onmouseout=\"flagDownUp=0;showSelect();\">Finalizar tareas</a></li><li><a style=\"width: 95%\" href=\"javascript:doBatchProcess('delayTaskBatchProcess');\"  id=\"DELAY_TASKS_BATCH_PROCESS_LINK\"  onmousedown=\"flagDownUp=817817169\"  onmouseup=\"if(flagDownUp==817817169)javascript:hideStrutMenu();\"  onmouseover=\"flagDownUp=0;hideSelect()\" onmouseout=\"flagDownUp=0;showSelect();\">Aplazar tareas</a></li><li><a style=\"width: 95%\" href=\"javascript:doBatchProcess('reactiveTaskBatchProcess');\"  id=\"REACTIVE_TASKS_BATCH_PROCESS_LINK\"  onmousedown=\"flagDownUp=917817169\"  onmouseup=\"if(flagDownUp==917817169)javascript:hideStrutMenu();\"  onmouseover=\"flagDownUp=0;hideSelect()\" onmouseout=\"flagDownUp=0;showSelect();\">Reactivar tareas</a></li><li><a style=\"width: 95%\" href=\"javascript:doBatchProcess('changeTasksProfileBatchProcess');\"  id=\"CHANGE_TASKS_PROFILE_LINK\"  onmousedown=\"flagDownUp=1017817169\"  onmouseup=\"if(flagDownUp==1017817169)javascript:hideStrutMenu();\"  onmouseover=\"flagDownUp=0;hideSelect()\" onmouseout=\"flagDownUp=0;showSelect();\">Cambiar perfil de tramitación</a></li></ul></li>\n\n\t\t\t\n\t\t\t<!-- MENU INCIDENCIAS -->\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<!-- menu avisos -->\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\n\n\n<!-- \t\t\t\t\t<div class=\"perfilcliente\" roles=\"PERFIL_CLIENTE\" > -->\n\n<!-- \t\t\t\t\t</div> -->\n\n\n\n\t\t\n\t</ul>\n</div>\n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\n              \t\t               \t\n\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n<script>\n\tfunction changeViewFilter(){\n\t\tshowFrame('workframe');\n\t\tvar selectElement=document.getElementById('filterSelect');\n\t\tvar selectedFilterValue=selectElement.value;\n\t\tvar host=document.location.host;\n\t\tvar href=document.location.pathname;\n\t\tvar protocol=document.location.protocol;\n\t\tdocument.location=protocol+'//'+host+href+'?filterSelect='+selectedFilterValue;\n\n\t}\n</script>\n\t\t\t\t\t\t\n\t\t\t\t\t<div class=\"caja\">\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<label class=\"flecha\" for=\"filterSelect\">\n\t\t\t\t\t\t<strong>Lista de </strong>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<select onchange=\"javascript:changeViewFilter();\" id=\"filterSelect\" class=\"select\" >\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='3'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas aplazadas\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='11'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas atribuidos scoring contactabilidad\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='6'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas con fecha límite menor de quince días a partir de hoy\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='1'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas delegadas\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='7'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas delegadas en ultimo día o fuera de plazo\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='5'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas no aplazadas\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='2'\n\t\t\t\t\t\t\t\t\t\t SELECTED \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas pendientes\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='9'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas pendientes que he creado\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='8'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas pendientes que me han delegado\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='10'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas triaje\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<option value='4'\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\tTareas visitadas hoy\n\t\t\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\n\t\t\t\t\t</label>\t\t\t\t\n\t\t\t\t</div>\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div class=\"border-bottom\" style=\"vertical-align: middle;\">\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<input type='checkbox' id='_changeAllCheckBox_' onclick=\"_changeAllCheckBox('batchProcessForm')\" id='_allcheckbox_' class='radio-check'/> Seleccionar todos\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<form name=\"batchProcessForm\" method=\"post\" action=\"/Expedientes/showProcedureTasksList.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK\">\n\t\t\t\t<input type=\"hidden\" name=\"<csrf:tokenname/>\" value=\"&lt;csrf:tokenvalue/&gt;\">\n\t\t\t\t<div class=\"taskview-selector\">\n\t\t\t\t\t<c:if test=\"false\">\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</c:if>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t<div class=\"textosimple\" style=\"padding-bottom: 5px;\" align=\"left\"> Disponibles 60 registros de 299, mostrando de 1 a 10</div><span class=\"textosimple\"><img src=\"ispac/skinCommon/img/ico_flecha-inicioOff.gif\" alt=\"Primero\" align=\"absmiddle\" style=\"vertical-align: middle;\"></img>&nbsp;<img src=\"ispac/skinCommon/img/ico_flecha-anteriorOff.gif\" alt=\"Anterior\" align=\"absmiddle\" style=\"vertical-align: middle;\"></img>&nbsp; <strong>1</strong>, <a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=2&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\" title=\"Ir a la pÃ¡gina 2\" >2</a>, <a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=3&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\" title=\"Ir a la pÃ¡gina 3\" >3</a>, <a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=4&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\" title=\"Ir a la pÃ¡gina 4\" >4</a>, <a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=5&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\" title=\"Ir a la pÃ¡gina 5\" >5</a>, <a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=6&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\" title=\"Ir a la pÃ¡gina 6\" >6</a>&nbsp;&nbsp;<a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=2&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\"><img src=\"ispac/skinCommon/img/ico_flecha-siguiente.gif\" alt=\"Siguiente\" align=\"absmiddle\" style=\"vertical-align: bottom;\"></img></a>&nbsp;&nbsp;<a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-p=6&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\"><img src=\"ispac/skinCommon/img/ico_flecha-fin.gif\" alt=\"Ãltimo\" align=\"absmiddle\" style=\"vertical-align: bottom;\"></img></a></span><script type=\"text/javascript\" src='/Expedientes/ispac/scripts/filterform.js'></script>\n<script type=\"text/javascript\">\nvar paramNames = new Array();\nparamNames[0] = \"d-ExpTaskList-id\";\nparamNames[1] = \"d-49655-fx\";\nparamNames[2] = \"d-49655-ps\";\nparamNames[3] = \"d-49655-x\";\nparamNames[4] = \"d-49655-nf\";\nvar paramValues = new Array();\nparamValues[0] = \"d-49655-\";\nparamValues[1] = \"2-3-4\";\nparamValues[2] = \"10\";\nparamValues[3] = \"true\";\nparamValues[4] = \"--- sin filtro ---\";\nvar excludeParams = new Array();\nexcludeParams[0] = 'd-49655-p';\n</script>\n<div class=\"indent\">\t<div class=\"tabla\">\n<table cellpadding=\"0\" cellspacing=\"0\" style=\"border:none; width:100%;\" id=\"task\" class=\"fondoAzul\" align=\"center\" >\n<thead>\n<tr>\n<th></th>\n<th>Estado</th>\n<th class=\"sortable\">\n<a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-o=2&amp;d-49655-p=1&amp;d-49655-s=2&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;d-49655-sf=WORKLIST:NAME&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\">Nombre de la Tarea</a></th>\n<th>Descripción</th>\n<th>Objeto</th>\n<th>Nº de siniestro</th>\n<th>Detalle</th>\n<th class=\"order1 sorted\">Creador</th>\n<th class=\"sortable\">\n<a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-o=2&amp;d-49655-p=1&amp;d-49655-s=8&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;d-49655-sf=WORKLIST:INITDATE&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\">Fecha de inicio</a></th>\n<th class=\"sortable\">\n<a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-o=2&amp;d-49655-p=1&amp;d-49655-s=9&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;d-49655-sf=WORKLIST:LIMITDATE&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\">Fecha límite</a></th>\n<th class=\"sortable\">\n<a href=\"/Expedientes/showProcedureTasksList.do?d-ExpTaskList-id=d-49655-&amp;d-49655-o=2&amp;d-49655-p=1&amp;d-49655-s=10&amp;d-49655-fx=2-3-4&amp;d-49655-ps=10&amp;d-49655-x=true&amp;d-49655-sf=WORKLIST:FECHA_ULTIMOACCESO&amp;OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;d-49655-nf=--- sin filtro ---\">Fecha último acceso</a></th></tr></thead>\n<tbody>\n<tr class=\"td_impar\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"25443840\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=25443840\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t815.622/2.020\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA003 - 0711/2021\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"9ed471c3-b083-468a-bacb-327ab16cd533\" title=\"Información Usuario\" id=\"9ed471c3-b083-468a-bacb-327ab16cd533\">\n\n\t\t\t\t\t\t\t\t\t\t\tJosé Antonio Álvarez Laguna\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"9ed471c3-b083-468a-bacb-327ab16cd533\",doPost: false,parameters: \"uid=9ed471c3-b083-468a-bacb-327ab16cd533\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t16/11/2021\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t13/11/2024\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_par\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"28060283\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=28060283\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t294.944/2.021\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA003 - 0837/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"88e551d7-dd63-4598-9d93-785286951ac1\" title=\"Información Usuario\" id=\"88e551d7-dd63-4598-9d93-785286951ac1\">\n\n\t\t\t\t\t\t\t\t\t\t\tIrene Martín Coruña\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"88e551d7-dd63-4598-9d93-785286951ac1\",doPost: false,parameters: \"uid=88e551d7-dd63-4598-9d93-785286951ac1\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t13/07/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t14/07/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_impar\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"28138157\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=28138157\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t153.126/2.021\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA003 - 0838/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"95a0d005-849e-4ffb-ad28-e130e97d03bf\" title=\"Información Usuario\" id=\"95a0d005-849e-4ffb-ad28-e130e97d03bf\">\n\n\t\t\t\t\t\t\t\t\t\t\tCarmen Hernández Sánchez\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"95a0d005-849e-4ffb-ad28-e130e97d03bf\",doPost: false,parameters: \"uid=95a0d005-849e-4ffb-ad28-e130e97d03bf\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t20/07/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t05/11/2024\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_par\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"28883970\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=28883970\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t1.004.142/2.021\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA088 - 1139/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"207e9882-dd86-449b-b71c-d751d4242b99\" title=\"Información Usuario\" id=\"207e9882-dd86-449b-b71c-d751d4242b99\">\n\n\t\t\t\t\t\t\t\t\t\t\tMarcos Hernandez Arroba\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"207e9882-dd86-449b-b71c-d751d4242b99\",doPost: false,parameters: \"uid=207e9882-dd86-449b-b71c-d751d4242b99\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t04/10/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t04/10/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_impar\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"30025255\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=30025255\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t389.836/2.021\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA001 - 1067/2022\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"207e9882-dd86-449b-b71c-d751d4242b99\" title=\"Información Usuario\" id=\"207e9882-dd86-449b-b71c-d751d4242b99\">\n\n\t\t\t\t\t\t\t\t\t\t\tMarcos Hernandez Arroba\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"207e9882-dd86-449b-b71c-d751d4242b99\",doPost: false,parameters: \"uid=207e9882-dd86-449b-b71c-d751d4242b99\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t19/01/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t20/01/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_par\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"30148196\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=30148196\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t815.622/2.020\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADP001 - 0001/1950\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"95a0d005-849e-4ffb-ad28-e130e97d03bf\" title=\"Información Usuario\" id=\"95a0d005-849e-4ffb-ad28-e130e97d03bf\">\n\n\t\t\t\t\t\t\t\t\t\t\tCarmen Hernández Sánchez\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"95a0d005-849e-4ffb-ad28-e130e97d03bf\",doPost: false,parameters: \"uid=95a0d005-849e-4ffb-ad28-e130e97d03bf\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t30/01/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t02/02/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_impar\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"30569659\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=30569659\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t819.374/2.022\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA003 - 0097/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"95a0d005-849e-4ffb-ad28-e130e97d03bf\" title=\"Información Usuario\" id=\"95a0d005-849e-4ffb-ad28-e130e97d03bf\">\n\n\t\t\t\t\t\t\t\t\t\t\tCarmen Hernández Sánchez\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"95a0d005-849e-4ffb-ad28-e130e97d03bf\",doPost: false,parameters: \"uid=95a0d005-849e-4ffb-ad28-e130e97d03bf\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t02/03/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t21/03/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_par\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"31788037\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=31788037\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t1.070.651/2.022\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA003 - 0751/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"c9b6c0cc-9b0b-4130-b5bf-93f989858c6d\" title=\"Información Usuario\" id=\"c9b6c0cc-9b0b-4130-b5bf-93f989858c6d\">\n\n\t\t\t\t\t\t\t\t\t\t\tSergio Recas Peña\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"c9b6c0cc-9b0b-4130-b5bf-93f989858c6d\",doPost: false,parameters: \"uid=c9b6c0cc-9b0b-4130-b5bf-93f989858c6d\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t14/06/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t27/06/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_impar\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"31885386\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=31885386\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t72.818/2.022\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA003 - 0101/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"207e9882-dd86-449b-b71c-d751d4242b99\" title=\"Información Usuario\" id=\"207e9882-dd86-449b-b71c-d751d4242b99\">\n\n\t\t\t\t\t\t\t\t\t\t\tMarcos Hernandez Arroba\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"207e9882-dd86-449b-b71c-d751d4242b99\",doPost: false,parameters: \"uid=207e9882-dd86-449b-b71c-d751d4242b99\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t22/06/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t22/06/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr>\n<tr class=\"td_par\">\n<td>\n\t\t\t\t\t\t\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" border=\"0\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"border:0 0 0 0\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"listId\" value=\"32789188\">\n\t\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/manual.gif' border=\"0\" alt=\"Sin fecha l&iacute;mite\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/img/tramiteaplazado.gif' border=\"0\" alt=\"Tarea aplazada\"/>\n\t\t\t\t\t\t\t  \t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/Expedientes/showTask.do?OWASP-CSRFTOKEN=T8IA-3R1L-92VX-4QYQ-N0SV-J0VN-FAZL-UZNK&amp;taskId=32789188\" class=\"mma3_table-body\" onclick=\"showFrame('workframe','wait.jsp',300,60)\">Resultado demandados</a>\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t[REALIZAR TAREA LETRADO]\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcedimiento judicial civil demandado\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t830.314/2.022\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t28MADA096 - 0281/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<acronym class=\"207e9882-dd86-449b-b71c-d751d4242b99\" title=\"Información Usuario\" id=\"207e9882-dd86-449b-b71c-d751d4242b99\">\n\n\t\t\t\t\t\t\t\t\t\t\tMarcos Hernandez Arroba\n\t\t\t\t\t\t\t\t\t\t</acronym><script>new AjaxJspTag.Callout(\"/Expedientes/entryDataAjax.do\",{sourceClass: \"207e9882-dd86-449b-b71c-d751d4242b99\",doPost: false,parameters: \"uid=207e9882-dd86-449b-b71c-d751d4242b99\",title: '<img src=\"/Expedientes/ispac/skin2/img/user.gif\" align=\"absmiddle\" width=\"12\" height=\"12\"/>Información Usuario',openEvent: \"click\"});</script>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t13/09/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td>\n<td>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t01/10/2023\n\t\t\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\t</td></tr></tbody></table></div></div><div class=\"formulario\"><div class=\"grupo\"><h3>Filtrar por:</h3><div class=\"elementos impar filtrar\"><tr><label for=\"staticColumn2\" ><span>Nombre de la Tarea<input class=\"notCondition\" readonly=\"true\" type=\"hidden\" name=\"ANDstaticColumn2\" size=\"2\" maxlength=\"2\" />&nbsp;<a href='javascript:location=checkBoxClicked(location.href,\"ANDstaticColumn2\",\"false\")'><img id=\"imgstaticColumn2\" src=\"/Expedientes/ispac/skin2/img/distinto.gif\" alt=\"Cambiar a &quot;&lt;&gt;&quot;\" width=\"16\" height=\"16\" border=\"0\" align=\"absmiddle\"style=\"display:none\" /></a></span><select class='select' onChange='location=getNewLocation(location.href,\"staticColumn2\",this.options[this.selectedIndex].value,\"d-49655-f2\",\"WORKLIST:NAME\")' name=\"staticColumn2\"><option value='--- sin filtro ---'>--- sin filtro ---</option><option value='Estudio+de+viabilidad'>Estudio de viabilidad</option><option value='Gesti%C3%B3n+penal'>Gestión penal</option><option value='Juicio+civil+demandado'>Juicio civil demandado</option><option value='Juicio+penal'>Juicio penal</option><option value='Juicio+recobro'>Juicio recobro</option><option value='Minuta+estudio+viabilidad+recobro'>Minuta estudio viabilidad recobro</option><option value='Resultado+demandados'>Resultado demandados</option><option value='Solicitar+documentaci%C3%B3n'>Solicitar documentación</option></select></label><label for=\"staticColumn3\" ><span>Descripción<input class=\"notCondition\" readonly=\"true\" type=\"hidden\" name=\"ANDstaticColumn3\" size=\"2\" maxlength=\"2\" />&nbsp;<a href='javascript:location=checkBoxClicked(location.href,\"ANDstaticColumn3\",\"false\")'><img id=\"imgstaticColumn3\" src=\"/Expedientes/ispac/skin2/img/distinto.gif\" alt=\"Cambiar a &quot;&lt;&gt;&quot;\" width=\"16\" height=\"16\" border=\"0\" align=\"absmiddle\"style=\"display:none\" /></a></span><input type='text' name=\"staticColumn3\" size=\"50\" id='staticColumn3' value=\"\" onkeypress='return noEnviarForm(event)'/> &nbsp;<img src=\"/Expedientes/ispac/skin2/img/search-mg.gif\" alt='Buscar por el Texto Introducido' onclick='location=getNewLocation(location.href,\"staticColumn3\", \"like:\" + staticColumn3.value,\"d-49655-f3\",\"WORKLIST:DESCRIPCION\");' style=\"vertical-align: middle;cursor:hand;\" height=\"16px\" width=\"16px\"/></label><label for=\"staticColumn4\" ><span>Objeto<input class=\"notCondition\" readonly=\"true\" type=\"hidden\" name=\"ANDstaticColumn4\" size=\"2\" maxlength=\"2\" />&nbsp;<a href='javascript:location=checkBoxClicked(location.href,\"ANDstaticColumn4\",\"false\")'><img id=\"imgstaticColumn4\" src=\"/Expedientes/ispac/skin2/img/distinto.gif\" alt=\"Cambiar a &quot;&lt;&gt;&quot;\" width=\"16\" height=\"16\" border=\"0\" align=\"absmiddle\"style=\"display:none\" /></a></span><select class='select' onChange='location=getNewLocation(location.href,\"staticColumn4\",this.options[this.selectedIndex].value,\"d-49655-f4\",\"WORKLIST:NAME_PROC\")' name=\"staticColumn4\"><option value='--- sin filtro ---'>--- sin filtro ---</option><option value='Procedimiento+judicial+civil+demandado'>Procedimiento judicial civil demandado</option><option value='Procedimiento+judicial+penal'>Procedimiento judicial penal</option><option value='Recobro'>Recobro</option></select></label></div></div></div> <!-- displayTag -->\t\t\t\t\n\t\t\t</form>\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n\t\t\t\t  <tr>\n\t\t\t\t    <td>&nbsp;</td>\n\t\t\t\t    <td>&nbsp;</td>\n\t\t\t\t    <td>&nbsp;</td>\n\t\t\t\t    <td>&nbsp;</td>\n\t\t\t\t  </tr>\n\t\t\t\t\n\t\t\t\t  <tr> \n\t\t\t\t    <td width=\"15%\"  style=\"vertical-align: top;\">\t\t\t\t    \t\n\t\t\t\t\t\t<table width='auto' border='0' cellspacing='0' cellpadding='0' style='margin-top: 0px; padding: 0px;'><tr><td valign='top'><div class=\"textonegrita action-button back-button\"><a href='/Expedientes/showProcedureTasksList.do?__backUrl=true'>\n\t\t\t\t\t\t\t<img src='/Expedientes/ispac/skin2/imgNewStyles/play_izda.gif' width=\"16\"\n\t\t\t\t\t\t\t\theight=\"16\" align=\"middle\" /> \n\t\t\t\t\t\t\t      Volver\n\t\t\t\t\t\t</a></div></td></tr></table>\n\t\t\t\t\t</td>\n\t\t\t\t\t\n\t\t\t\t    <td width=\"30%\" valign=\"top\" align=\"left\" >\t\t\t\t    \t\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td width=\"30%\" valign=\"top\" align=\"left\">\t\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td width=\"25%\" valign=\"top\" align=\"left\">\t\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\t\n\t\t\t\t  </tr>\n\t\t\t\t</table>\n\t\t\t\t<div style=\"height: 300px;\" class=\"pixelsFillingDiv\"></div>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\t\t\t\n\t</div>\t\n </div>\n\n<div id=\"divWorkframeDibu\" class=\"esperaDibu\" align=\"center\" style=\"position: absolute; visibility: hidden;\">\n\t<img src=\"/recursos/apps/img/ico/loading%20transp.gif\" alt=\"Cargando... espere por favor\"/>\n</div>\t\n<div id=\"divWorkframeFondo\" class=\"trans\"></div>\n\t\t\n  </body>\n  \n\t<script>\n\t\tif (window.name==\"popup\"){\n\t\t\tvar element=document.getElementById(\"volver\");\n\t\t\telement.style.display=\"none\";\n\t\t}\n\t</script>\n</html>\n"
+          },
+          "redirectURL": "",
+          "headersSize": 703,
+          "bodySize": 12195
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 295,
+          "receive": 0
+        },
+        "time": 295,
+        "_securityState": "secure",
+        "serverIPAddress": "45.60.87.131",
+        "connection": "443",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
