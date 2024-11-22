@@ -1,0 +1,5 @@
+Notes for allianz.py:
+
+- Meterlo en funcion con usuario, contraseña, siniestro y download path y handle los return y error codes 
+- Hay veces que da error por nada y simplemente hay que restart(), incluir en el main (incluido error code
+for timeout entonces, retry)
