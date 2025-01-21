@@ -1,0 +1,14 @@
+{
+  "name": "mutua_propietarios",
+  "version": "1.0.0",
+  "main": "docs.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  }
+}

@@ -1,0 +1,671 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="playout" ng-app="sisnetAppMain">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta id="jsStrings" 
+	data-content='{
+		"jsdt001":"Cargando...",
+		"jsdt002":"No hay acciones a realizar",
+		"jsdt003":"Error en la recepción de los datos:",
+		"jsdt004":"Ayuda",
+		"jsdt005":"PREFIJO",
+		"jsdt006":"El importe introducido no es un número. Rellénalo correctamente e inténtalo de nuevo.",
+		"jsdt007":"No has rellenado correctamente la FECHA DE EFECTO. [n][n](Ejemplo: $J1)",
+		"jsdt008":"Se ha detectado que tienes activado el bloqueador de ventanas en tu navegador.[n]Nuestras ventanas emergentes no contienen publicidad sino información que te es necesaria.[n]Indica a tu navegador que acepte las ventanas emergente provinientes de nuestro sitio.",
+		"jsdt009":"Se ha sobrepasado el número máximo ($J1 caracteres) permitidos. El exceso se ha eliminado.",
+		"jsdt010":"Se está utilizando tecnología AJAX en esta página.[n]Dispones de un navegador que no soporta dicha tecnología.[n]Por favor, actualiza tu navegador a una versión más actual o ponte en contacto con el servicio técnico.",
+		"jsdt011":"Se ha producido un error inesperado.",
+		"jsdt012":"Espera unos momentos y vuelve a intentarlo.",
+		"jsdt013":"Código error:",
+		"jsdt014":"Procesando",
+		"jsdt015":"Espera, por favor",
+		"jsdt016":"Para disfrutar de la tecnología que utiliza esta funcionalidad te recomendamos que utilices uno de los siguientes navegadores",
+		"jsdt017":"El dato introducido no se corresponde con el de una fecha.",
+		"jsdt018":"Cerrar",
+		"jsdt019":"Anterior",
+		"jsdt020":"Siguiente",
+		"jsdt021":"Hoy",
+		"jsdt022":"Enero",
+		"jsdt023":"Febrero",
+		"jsdt024":"Marzo",
+		"jsdt025":"Abril",
+		"jsdt026":"Mayo",
+		"jsdt027":"Junio",
+		"jsdt028":"Julio",
+		"jsdt029":"Agosto",
+		"jsdt030":"Septiembre",
+		"jsdt031":"Octubre",
+		"jsdt032":"Noviembre",
+		"jsdt033":"Ene",
+		"jsdt034":"Feb",
+		"jsdt035":"Mar",
+		"jsdt036":"Abr",
+		"jsdt037":"May",
+		"jsdt038":"Jun",
+		"jsdt039":"Jul",
+		"jsdt040":"Ago",
+		"jsdt041":"Sep",
+		"jsdt042":"Oct",
+		"jsdt043":"Nov",
+		"jsdt044":"Dic",
+		"jsdt045":"Domingo",
+		"jsdt046":"Lunes",
+		"jsdt047":"Martes",
+		"jsdt048":"Miércoles",
+		"jsdt049":"Jueves",
+		"jsdt050":"Viernes",
+		"jsdt051":"Sábado",
+		"jsdt052":"Dom",
+		"jsdt053":"Lun",
+		"jsdt054":"Mar",
+		"jsdt055":"Mié",
+		"jsdt056":"Juv",
+		"jsdt057":"Vie",
+		"jsdt058":"Sáb",
+		"jsdt059":"Do",
+		"jsdt060":"Lu",
+		"jsdt061":"Ma",
+		"jsdt062":"Mi",
+		"jsdt063":"Ju",
+		"jsdt064":"Vi",
+		"jsdt065":"Sá",
+		"jsdt066":"Error desconocido",
+		"jsdt067":"Tipo $J1 no soportado.",
+		"jsdt068":"El dato introducido no se corresponde con el de una fecha.",
+		"jsdt069":"Sólo se aceptan $J1 decimales",
+		"jsdt070":"CONTINUAR",
+		"jsdt071":"El campo $J1 debe tener una longitud mínima de $J2 caracteres.[n][n]Por favor complétalo y pulsa $J3",
+		"jsdt072":"El campo $J1 es un campo obligatorio.[n][n]Selecciona una de sus opciones y pulsa $J2",
+		"jsdt073":"El campo $J1 es un campo obligatorio y no puede estar en blanco.[n][n]Rellénalo y pulsa $J2",
+		"jsdt074":"El campo $J1 es incorrecto. [n][n](Ejemplo: $J3)[n][n] Rellénalo correctamente y pulsa $J2",
+		"jsdt075":"El campo $J1 no se ha rellenado correctamente. [n][n](Ejemplo: 12434.50 ó 12434,50)[n][n] Utiliza la coma para separar enteros de decimales y pulsa $J2",
+		"jsdt076":"El campo $J1 no se ha rellenado correctamente. [n][n](Ejemplo: nombre@dominio.com)[n][n]Rellénalo correctamente y pulsa $J2",
+		"jsdt077":"El campo $J1 no se ha rellenado correctamente. [n][n](Ejemplo: $J3)[n][n]Comprueba que la FECHA sea correcta y pulsa $J2",
+		"jsdt078":"El campo $J1 no se ha rellenado correctamente.[n][n](Ejemplo: 22:30)[n][n]Compruébalo y pulsa $J2",
+		"jsdt079":"El campo $J1 no se ha rellenado correctamente.[n][n](Ejemplo: 99,509)[n][n]Rellénalo correctamente y pulsa $J2",
+		"jsdt080":"El campo $J1 no se ha rellenado correctamente.[n][n](Ejemplo: 1234)[n][n]Compruébalo y pulsa $J2",
+		"jsdt081":"El campo $J1 no se ha rellenado correctamente.[n][n](Ejemplo: $J3)[n][n]Compruébalo y pulsa $J2",
+		"jsdt082":"El campo $J1 no se ha rellenado correctamente.[n][n](Ejemplo: $J3)[n][n]Compruébalo y pulsa $J2",
+		"jsdt083":"No has rellenado correctamente el campo $J1[n][n]Comprueba este campo y pulsa $J2",
+		"jsdt084":"Los importes deben ser positivos",
+		"jsdt085":"Diciembre",
+		"jsdt086":"Se ha sobrepasado la longitud máxima para escribir un SMS.[n]Por favor corrige la plantilla.",		
+		"jsdt087":"Se ha sobrepasado la longitud máxima para escribir un SMS.[n]Quieres guardar la modificación?",
+		"jsdt088":"Identificación de usuario:",
+		"jsdt089":"Usuario",
+		"jsdt090":"Clave",
+		"jsdt091":"Entrar",
+		"jsdt092":"Teléfono Asistencia:",
+		"jsdt093":"Plataforma SISnet. Sistema Integral de Seguros. Copyright &copy; Netijam Technologies, S.L. Todos los derechos reservados.",
+		"jsdt094":"Todos los derechos reservados",
+		"jsdt095":"Inactividad",
+		"jsdt096":"Ha pasado el tiempo máximo de inactividad permitido.",
+		"jsdt097":"Para garantizar la seguridad del sistema hemos caducado la sesión.",
+		"jsdt098":"Para continuar deberás identificarte de nuevo e iniciar una nueva sesión.",
+		"jsdt099":"Error de identificación",
+		"jsdt100":"Usuario bloqueado. Contacte con el administrador.",
+		"jsdt101":"Error en la identificación",
+		"jsdt102":"Consejos",
+		"jsdt103":"Comprueba que has escrito correctamente el código de usuario y la clave.",
+		"jsdt104":"Comprueba que no has dejado ningún campo en blanco.",
+		"jsdt105":"No importa que los datos los introduzcas en mayúsculas o minúsculas.",
+		"jsdt106":"Si sigues con problemas ponte en contacto con nosotros.",
+		"jsdt107":"Clave caducada",
+		"jsdt108":"Las dos claves son diferentes. Vuelve a rellenarlas e inténtalo de nuevo.",
+		"jsdt109":"Introduce una nueva clave",
+		"jsdt110":"Nueva clave",
+		"jsdt111":"Nueva clave",
+		"jsdt112":"Repetir nueva clave",
+		"jsdt113":"Repetir nueva clave",
+		"jsdt114":"Cambiar clave",
+		"jsdt115":"Consejos para la generación de clave",
+		"jsdt116":"Introduce la nueva clave con un mínimo de 6 caracteres.",
+		"jsdt117":"Utiliza letras y números.",
+		"jsdt118":"Utiliza algún carácter especial (Ej: [s]?[s], [s]@[s], [s]#[s]) que hagan más segura tu clave.",
+		"jsdt119":"Has dejado en blanco el campo CLAVE ACTUAL.[n][n]Rellénalo y vuelve a intentar la identificación.[n]",
+		"jsdt120":"Has dejado en blanco el campo NUEVA CLAVE.[n][n]Rellénalo y vuelve a intentar la identificación.[n]",
+		"jsdt121":"Has dejado en blanco el campo REPETIR NUEVA CLAVE.[n][n]Rellénalo y vuelve a intentar la identificación.[n]",
+		"jsdt122":"Las dos claves nuevas son diferentes. Vuelve a rellenarlas e inténtalo de nuevo.",
+		"jsdt123":"Claves",
+		"jsdt124":"Clave actual",
+		"jsdt125":"Clave actual",
+		"jsdt126":"(*) Campos obligatorios",
+		"jsdt127":"Importes expresados en (¤)",
+		"jsdt128":"El campo $J1 no se ha rellenado correctamente. [n][n] Comprueba que no lleva espacios y pulsa $J2",
+		"jsdt129":"Función",
+		"jsdt130":"El código debe de estar grabado antes de liberar una nueva versión.",
+		"jsdt131":"Imprimir documento",
+		"jsdt132":"Cerrar ventana",
+		"jsdt133":"Seleccionar",
+		"jsdt134":"No es posible presentar la respuesta con la configuración introducida",
+		"jsdt135":"Ver/Ocultar detalle actividad",
+		"jsdt136":"El campo $J1 es un campo obligatorio. Selecciona una de sus opciones.",
+		"jsdt137":"El campo $J1 no se ha rellenado correctamente.",
+		"jsdt138":"El campo $J1 es un campo obligatorio y no puede estar en blanco.",
+		"jsdt139":"El campo $J1 es incorrecto. (Ejemplo: $J2)",
+		"jsdt140":"El campo $J1 no se ha rellenado correctamente. (Ejemplo: 12434.50 ó 12434,50)",
+		"jsdt141":"El campo $J1 no se ha rellenado correctamente. (Ejemplo: nombre@dominio.com)",
+		"jsdt142":"El campo $J1 no se ha rellenado correctamente. (Ejemplo: $J2)",
+		"jsdt143":"El campo $J1 no se ha rellenado correctamente. (Ejemplo: 22:30)",
+		"jsdt144":"El campo $J1 no se ha rellenado correctamente. (Ejemplo: 99,509)",
+		"jsdt145":"El campo $J1 no se ha rellenado correctamente. (Ejemplo: 1234)",
+		"jsdt146":"No has rellenado correctamente el campo $J1",
+		"jsdt147":"Existen campos obligatorios sin rellenar o con formato incorrecto. Conprueba las pestañas con X en rojo.",
+		"jsdt148":"Pestaña",
+		"jsdt149":"El campo $J1 no puede tener más de $J2 números enteros"
+	}'
+	data-countries='[
+	["Afganistán","93"],
+	["Albania","355"],
+	["Andorra","376"],
+	["Angola","244"],
+	["Anguilla","1x"],
+	["Antigua y Barbuda","1xx"],
+	["Argelia","213"],
+	["Argentina","54"],
+	["Armenia","374"],
+	["Aruba","297"],
+	["Ascension","247"],
+	["Australia","61"],
+	["Austria","43"],
+	["Azerbaijan","994"],
+	["Bahamas","1xxx"],
+	["Bahrain","973"],
+	["Bangladesh","880"],
+	["Barbados","1xxxx"],
+	["Bélgica","32"],
+	["Belice","501"],
+	["Benin","229"],
+	["Bermudas","1xxxxx"],
+	["Bielorrusia","375"],
+	["Bolivia","591"],
+	["Bosnia Herzegovina","387"],
+	["Botswana","267"],
+	["Brasil","55"],
+	["Brunei","673"],
+	["Bulgaria","359"],
+	["Burkina Faso","226"],
+	["Burundi","257"],
+	["Bután","975"],
+	["Camboya","855"],
+	["Camerún","237"],
+	["Canadá","1xxxxxxx"],
+	["Cabo Verde","238"],
+	["Chad","235"],
+	["Chile","56"],
+	["China","86"],
+	["Chipre","357"],
+	["Colombia","57"],
+	["Comores","269"],
+	["Congo","242"],
+	["Costa Rica","506"],
+	["Croacia","385"],
+	["Cuba","53"],
+	["España","34"],
+	["Estados Unidos","1"],
+	["Francia","33"],
+	["Gran Bretaña","44"],
+	["Islas Caimán","1xxxxxxxx"],
+	["Islas Cook","682"],
+	["Islas Vírgenes Británicas","1xxxxxx"],
+	["Italia","39"],
+	["República Centroafricana","236"],
+	["República Checa","420"],
+	["República Democrática del Congo","243"],
+	["Rusia","7"],
+	["Samoa Americana","1xxxxxxxxxxxxxxxxxxxxxxx"],
+	["Dinamarca","45"],
+	["Diego Garcia","246"],
+	["Djibouti","253"],
+	["Dominica","1xxxxxxxxx"],
+	["República Dominicana","1xxxxxxxxxx"],
+	["Timor Oriental","670"],
+	["Ecuador","593"],
+	["Egipto","20"],
+	["El Salvador","503"],
+	["Guinea Ecuatorial","240"],
+	["Eritrea","291"],
+	["Estonia","372"],
+	["Etiopía","251"],
+	["Islas Malvinas","500"],
+	["Islas Faroe","298"],
+	["Fiji","679"],
+	["Finlandia","358"],
+	["Guayana Francesa","594"],
+	["Polinesia Francesa","689"],
+	["Gabón","241"],
+	["Gambia","220"],
+	["Georgia","995"],
+	["Alemania","49"],
+	["Ghana","233"],
+	["Gibraltar","350"],
+	["Grecia","30"],
+	["Groelandia","299"],
+	["Granada","1xxxxxxxxxxx"],
+	["Guadeloupe","590"],
+	["Guam","1xxxxxxxxxxxx"],
+	["Guatemala","502"],
+	["Guinea","224"],
+	["Guinea-Bissau","245"],
+	["Guyana","592"],
+	["Haiti","509"],
+	["Honduras","504"],
+	["Hong Kong","852"],
+	["Hungría","36"],
+	["Islandia","354"],
+	["India","91"],
+	["Indonesia","62"],
+	["Satelite Inmarsat","870"],
+	["Irán","98"],
+	["Iraq","964"],
+	["Irlanda","353"],
+	["Israel","972"],
+	["Costa de Marfil","225"],
+	["Jamaica","1xxxxxxxxxxxxx"],
+	["Japón","81"],
+	["Jordania","962"],
+	["Kazakhstan","7xxxxxxxxxxxxx"],
+	["Kenya","254"],
+	["Kiribati","686"],
+	["Kuwait","965"],
+	["Kyrgyzstan","996"],
+	["Laos","856"],
+	["Letonia","371"],
+	["Líbano","961"],
+	["Lesotho","266"],
+	["Liberia","231"],
+	["Libia","218"],
+	["Liechtenstein","423"],
+	["Lituania","370"],
+	["Luxemburgo","352"],
+	["Macao","853"],
+	["Macedonia","389"],
+	["Madagascar","261"],
+	["Malawi","265"],
+	["Malasia","60"],
+	["Maldivas","960"],
+	["Mali","223"],
+	["Malta","356"],
+	["Islas Marshall","692"],
+	["Martinica","596"],
+	["Mauritania","222"],
+	["Mauricio","230"],
+	["Mayotte","262xxxxxxxxxxxx"],
+	["Mexico","52"],
+	["Micronesia","691"],
+	["Moldavia","373"],
+	["Mónaco","377"],
+	["Mongolia","976"],
+	["Montenegro","382"],
+	["Montserrat","1xxxxxxxxxxxxxx"],
+	["Marruecos","212"],
+	["Mozambique","258"],
+	["Myanmar","95"],
+	["Namibia","264"],
+	["Naurú","674"],
+	["Nepal","977"],
+	["Holanda","31"],
+	["Antillas Holandesas","599"],
+	["Nueva Caledonia","687"],
+	["Nueva Zelanda","64"],
+	["Nicaragua","505"],
+	["Níger","227"],
+	["Nigeria","234"],
+	["Niué","683"],
+	["Corea del Norte","850"],
+	["Marianas","1xxxxxxxxxxxxxxx"],
+	["Noruega","47"],
+	["Omán","968"],
+	["Pakistán","92"],
+	["Palau","680"],
+	["Panamá","507"],
+	["Papua Nueva Guinea","675"],
+	["Paraguay","595"],
+	["Perú","51"],
+	["Fiilipinas","63"],
+	["Polonia","48"],
+	["Portugal","351"],
+	["Puerto Rico","1xxxxxxxxxxxxxxxx"],
+	["Qatar","974"],
+	["Reunión","262"],
+	["Rumanía","40"],
+	["Ruanda","250"],
+	["Santa Helena","290"],
+	["San Cristobal y Nevis","1xxxxxxxxxxxxxxxxx"],
+	["Santa Lucia","1xxxxxxxxxxxxxxxxxx"],
+	["Saint Pierre and Miquelon","508"],
+	["San Vincente y lase Granadinas","1xxxxxxxxxxxxxxxxxxx"],
+	["Samoa","685"],
+	["San Marino","378"],
+	["Santo Tomé y Principe","239"],
+	["Arabia Saudí","966"],
+	["Senegal","221"],
+	["Serbia","381"],
+	["Seychelles","248"],
+	["Sierra Leona","232"],
+	["Singapur","65"],
+	["Eslovaquia","421"],
+	["Eslovenia","386"],
+	["Islas Salomón","677"],
+	["Somalia","252"],
+	["Sudáfrica","27"],
+	["Corea del Sur","82"],
+	["Sri Lanka","94"],
+	["Sudán","249"],
+	["Surinam","597"],
+	["Swazilandia","268"],
+	["Suecia","46"],
+	["Suiza","41"],
+	["Siria","963"],
+	["Taiwan","886"],
+	["Tajikistan","992"],
+	["Tanzania","255"],
+	["Tailandia","66"],
+	["Togo","228"],
+	["Tokelau","690"],
+	["Trinidad y Tobago","1xxxxxxxxxxxxxxxxxxxx"],
+	["Túnez","216"],
+	["Turquía","90"],
+	["Turkmenistán","993"],
+	["Islas Turks y Caicos","1xxxxxxxxxxxxxxxxxxxxx"],
+	["Tuvalu","688"],
+	["Uganda","256"],
+	["Ucrania","380"],
+	["Emiratos Árabes Unidos","971"],
+	["Islas Vírgenes Americanas","1xxxxxxxxxxxxxxxxxxxxxx"],
+	["Uruguay","598"],
+	["Uzbekistán","998"],
+	["Vanuatu","678"],
+	["Vaticano","379"],
+	["Venezuela","58"],
+	["Vietnam","84"],
+	["Wallis y Futuna","681"],
+	["Yemen","967"],
+	["Zambia","260"],
+	["Zimbabwe","263"]
+]' />
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+<link rel="icon" href="/web/custom_visual/mutua_propietarios/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/web/custom_visual/mutua_propietarios/favicon.ico" type="image/x-icon" />
+
+  <link href="/web/media/css/estilos.jsp?v=2020042208&custom=custom_visualmutua_propietarios" rel="stylesheet" type="text/css"/>
+  <link id="sisneticon" href="/web/media/css/fontsController.jsp?v=2020042208&custom=custom_visualmutua_propietarios" rel="stylesheet" type="text/css"/>
+
+
+<meta id="tfnoinf" 
+	data-defaulprefix="34" 
+	data-flags="true" 
+	data-acceptallcountries="true" 
+	/>
+<meta id="sisnetApplication" data-value="/web" data-language="ESPA" />
+<meta id="validationPatterns" 
+	data-postalcode="^(([0-4][0-9])|([5][0-2]))[\d]{3}$"
+	data-postaldigi="5"
+	data-dateformat="^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/[0-9]{4}$"
+	data-hourformat="^(0[0-9]|1[0-9]|2[0-3]):([0-5][0-9])$"
+	data-mailformat="^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$"
+	data-identificationnumberformat="^[\d]{7,8}[A-Za-z]$"
+	data-phoneformat="^[6|7|8|9][\d]{8}$"
+	data-mobilephoneformat="^[6|7][\d]{8}$"
+	data-homephoneformat="^[8|9][\d]{8}$"
+	data-creditcardformat="^[\d]{16}$"
+	data-bancnumberformat="^[\d]{4}-[\d]{4}-[\d]{2}-[\d]{10}$"
+	 />
+	 <meta id="examplePatterns" 
+	data-postalcode="48901"
+	data-mobilephoneformat="615288400"
+	data-homephoneformat="915288400"
+	data-dateformat="21/05/2002"
+	 />
+	 <meta id="maskPatterns" 
+	data-dateformat="dd/mm/yy"
+	data-datefirstday="1"
+	data-dotformat=","
+	 />
+<script type="text/javascript" src="/web/ruxitagentjs_ICANVfghqru_10303241106123517.js" data-dtconfig="app=ea7c4b59f27d43eb|cuc=j7o4euj5|mel=100000|featureHash=ICANVfghqru|md=mdcc1=a[name='data-user']@content,mdcc2=a#usuario_dynatrace|lastModification=1736335798115|tp=500,50,0|rdnt=1|uxrgce=1|agentUri=/web/ruxitagentjs_ICANVfghqru_10303241106123517.js|reportUrl=/web/rb_bf44395rvi|rid=RID_-796508006|rpid=1432381686|domain=mutuadepropietarios.es"></script><script type="text/javascript" src="/web/media/js/jsControllers/jsJquery1_11.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsAngular1_2_32.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsJquery1_4.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsController.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsPurify.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsSisnet.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsSisnetMain.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsDinamicSurvey.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script type="text/javascript" src="/web/media/js/jsControllers/jsCustomClientCode.jsp?v=2020022618&custom=custom_visualmutua_propietariostfnoint&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D"></script>
+<script id="SISnetHeadPrintWindow"  type="text/sisnet-template">
+    <table class="wideBox sis-box-bg" align="center" cellpadding="4" style="position: fixed;top: 0;left: 0px;" cellspacing="5" id="cabecera">
+        <tr>
+            <td width="33%" height="27" align="right">
+                <form name="form1" method="post" action="">
+                    <table class="wideBox" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="33%">&nbsp;</td>
+                            <td width="33%" align="center"> <input name="Submit" type="button" class="js-sisprintwindows mainButton" value="{{imprimir}}" title="{{imprimir}}"/></td>
+                            <td width="33%" align="right">&nbsp;<a class="js-sisclosewindows" href="#"><strong>{{cerrar}}</strong></a></td>
+                        </tr>
+                    </table>
+                    <input name="marca" type="hidden" id="marca2" value="1"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+	<div style="margin-top:50px;"></div>
+</script>
+<script id="SISnetHeadCloseWindow"  type="text/sisnet-template">
+    <table class="wideBox sis-box-bg" align="center" style="position: fixed;top: 0;left: 0px;" cellspacing="10">
+        <tr>
+            <td width="33%" align="right"><a class="js-sisclosewindows" href="#"><strong>{{cerrar}}</strong></a></td>
+        </tr>
+    </table>
+	<div style="margin-top:50px;"></div>
+</script>
+
+
+
+
+<script type="text/javascript">
+// Funciones mensajes para control de Procesando
+function receiveMessage(event) {
+    var dominio = document.domain;
+    var protocolo = window.location.protocol;
+    var entorno = protocolo + "//" + dominio;  
+  
+
+    if (event.origin !== entorno) {
+        return;
+    }
+
+    if (event.data === 'show:procesando') {
+        mostrarprocesando();
+    } else if (event.data === 'hide:procesando') {
+        eliminarprocesando();
+    }
+}
+
+function setMessageListener() {
+    if (window.attachEvent) {
+        window.attachEvent('onmessage',receiveMessage);
+    } else if (window.addEventListener) {
+        window.addEventListener("message", receiveMessage, false);
+    }
+}
+
+$(document).ready(setMessageListener);
+</script>
+
+<meta name="SISnetSession" content="3A850D430CAFA7D2673ECB54E19C03A0" />
+<meta name="SISnetContext" content="web" />
+<meta name="SISnetAgenproc" content="false" />
+<title>Mutua de propietarios - </title>
+<script type="text/javascript">
+<!--
+	var esCntPadre = true;
+
+	function rompeFramesSIS() {
+		try {
+			if (window != parent && parent.window.frames["mainFrame"]) {
+				parent.location.href = location.href;
+			}
+		} catch (e) {
+		}
+	}
+
+	rompeFramesSIS();
+
+	var sincro = false;
+
+	function mostrarComboAdmin() {
+		if (topFrame().cab.mostrarCombo)
+			topFrame().cab.mostrarCombo();
+	}
+//-->
+</script>
+</head>
+<body class="playout">
+	<div>
+		
+		<iframe height="70" src="SNetPeticion?idPeticion=GENEFRAM0001&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D" name="cab" id="topFrame" scrolling="no" frameborder="0"
+			onload="sincro = true; mostrarComboAdmin();"
+		></iframe>
+		<div class="centro">
+			<iframe src="SNetPeticion?idPeticion=MENUFRAMEPPAL&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D" name="toc" id="leftFrame" scrolling="auto" frameborder="0" marginwidth="0"></iframe>
+			
+<div id="flexmenu" class="flexmenu">
+    <div id="dragmenu" class="dragmenu js-flexmenu"></div>
+    <div id="clickmenu" class="clickmenu js-clickmenu" title="Haz click para ocultar o visualizar el menú">
+    	<div class="rightSide"></div>
+        <a href="#" id="iconclickmenu" class="iconclickmenu"></a>
+    </div>
+</div>
+			
+<div id="rightFrame"></div>
+			<div class="divcuerpo" id="divcuerpo">
+				
+				<iframe src="SNetPeticion?idPeticion=MENUPROD0001&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D" name="cuerpo" id="mainFrame" frameborder="0"></iframe>
+				<iframe src="SNetPeticion?idPeticion=GENEHIDE0001&fp=VFtvD92plZNl%2FtXspd7maXxFLYAOUMGl%2FfsEIuGLLIc%3D" name="oculto" id="hideFrame"></iframe>
+			</div>
+		</div>
+		
+
+
+
+
+
+
+<div class="fondopie" id="pie">
+
+	<div class="dtfooter fondoframe21h fondofpie">
+		<div class="dtasis">
+			
+			&nbsp;
+			
+		</div>
+		
+		<div class="dtversion">
+			<a href="http://www.sisnet360.com" target="_blank"
+				title="Plataforma SISnet. Copyright &copy; Netijam Technologies, S.L. Todos los derechos reservados."><img
+				src="/web/media/images/logo_SISnet.png" alt="SISnet" /></a> <span
+				title="Proyecto: SISnet
+Base: 14.2.2
+Revisión: XXXXX
+Fecha: 05/03/2024 16:26:30" class="version">v14.2.2</span>
+		</div>
+		
+		<strong>&copy; Mutua de propietarios 2025</strong>
+		
+		-
+		Todos los derechos reservados
+		
+	</div>
+</div>
+
+	</div>
+</body>
+
+</html>
