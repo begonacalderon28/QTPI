@@ -5,7 +5,6 @@ import urllib.parse
 import math
 import shutil
 from pathlib import Path
-import filetype
 
 
 
@@ -15,18 +14,12 @@ import filetype
 #probar con distintos cosas el elif de autodescargable pero hay que dar a un boton
 
 
-usuario = "P0012104"
-contraseña = "bilma-0012"
-siniestro = "604902160"
-downloads_path = "descargas"
 
-
-dwn_path = "downloads"
 
 def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
     with sync_playwright() as p:
         # Crear navegador y contexto
-        browser = p.chromium.launch(headless=False, downloads_path=dwn_path)
+        browser = p.chromium.launch(headless=True, downloads_path=dwn_path)
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
             java_script_enabled=True,
@@ -108,8 +101,8 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
                 print('Failed to delete %s. Reason: %s' % (file_path, e))
 
         # Logica para la descarga de archivos
-        file_number = 20  
-        block_number = 5
+        file_number = -1  
+        block_number = 0
         file_total = -1
 
         while True:
@@ -252,9 +245,10 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
 
         # Cuando acaba descarga cerramos
         browser.close()
+        
         return 200
 
-    
+
             
 
 

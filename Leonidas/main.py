@@ -1,8 +1,10 @@
 import sys
 from PyQt5 import QtWidgets, QtGui, QtCore
-import mutua_auto    # Importa el script de automatización
+from Mutua import mutua_auto    # Importa el script de automatización
 from error_codes import get_error_message  # Importa la función de códigos de error
-
+from Allianz import allianz_auto
+from BBVA import bbva_auto
+from Mutua_propietarios import mutua_propietarios_auto
 
 class MainUI(QtWidgets.QWidget):
     def __init__(self):
@@ -25,13 +27,21 @@ class MainUI(QtWidgets.QWidget):
         mutua_button = self.create_logo_button("resources/mutua-logo.png")
         mutua_button.clicked.connect(self.show_mutua_screen)
         allianz_button = self.create_logo_button("resources/allianz-logo.png")
+        allianz_button.clicked.connect(self.show_allianz_screen)
         axa_button = self.create_logo_button("resources/axa-logo.png")
+        mutua_propietarios_button= self.create_logo_button("resources/mutua-propietarios.png")
+        mutua_propietarios_button.clicked.connect(self.show_propietarios_screen)
+        bbva_button = self.create_logo_button("resources/bbva-logo.png")
+        bbva_button.clicked.connect(self.show_bbva_screen)
+
 
         # Distribuir los logos en un layout
         logo_layout = QtWidgets.QHBoxLayout()
         logo_layout.addWidget(mutua_button)
         logo_layout.addWidget(allianz_button)
         logo_layout.addWidget(axa_button)
+        logo_layout.addWidget(mutua_propietarios_button)
+        logo_layout.addWidget(bbva_button)
 
         # Añadir todos los elementos al layout principal
         #main_layout.addWidget(title_label)
@@ -61,6 +71,21 @@ class MainUI(QtWidgets.QWidget):
     def show_mutua_screen(self):
         self.mutua_screen = MutuaScreen()
         self.mutua_screen.show()
+        self.close()
+
+    def show_allianz_screen(self):
+        self.allianz_screen = AllianzScreen()
+        self.allianz_screen.show()
+        self.close()
+
+    def show_bbva_screen(self):
+        self.bbva_screen = BBVAScreen()
+        self.bbva_screen.show()
+        self.close()
+    
+    def show_propietarios_screen(self):
+        self.propietarios_screen = PropietariosScreen()
+        self.propietarios_screen.show()
         self.close()
 
 class MutuaScreen(QtWidgets.QWidget):
@@ -199,6 +224,446 @@ class MutuaScreen(QtWidgets.QWidget):
         # Llamar a la función de descarga de mutua_auto.py y capturar el código de retorno
         try:
             resultado = mutua_auto.login_and_download_documents(usuario, contraseña, tipo_busqueda, numero_busqueda, ruta_descarga)
+            mensaje_error = get_error_message(resultado)
+
+            # Mostrar el mensaje de error en una ventana emergente
+            if resultado == 200:
+                QtWidgets.QMessageBox.information(self, "Éxito", mensaje_error)
+            else:
+                QtWidgets.QMessageBox.warning(self, "Error", mensaje_error)
+                
+        except Exception as e:
+            QtWidgets.QMessageBox.critical(self, "Error", f"Ha ocurrido un error inesperado: {str(e)}")
+
+    def return_to_main(self):
+        self.main_screen = MainUI()
+        self.main_screen.show()
+        self.close()
+
+    def select_download_path(self):
+        path = QtWidgets.QFileDialog.getExistingDirectory(self, "Seleccionar carpeta de descarga")
+        if path:
+            self.download_path_input.setText(path)
+
+class AllianzScreen(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Descargas de Allianz")
+        self.setGeometry(100, 100, 600, 450)
+        self.setStyleSheet("background-color: white; font-family: 'Sans Serif';")
+        self.initUI()
+
+    def initUI(self):
+        layout = QtWidgets.QVBoxLayout()
+
+        # Título
+        title_label = QtWidgets.QLabel("Allianz")
+        title_label.setAlignment(QtCore.Qt.AlignCenter)
+        title_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 18px; font-weight: bold;")
+
+        # Inputs y etiquetas
+        user_label = QtWidgets.QLabel("Usuario:")
+        user_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.user_input = QtWidgets.QLineEdit()
+        self.user_input.setFixedWidth(180)
+        self.user_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+        pass_label = QtWidgets.QLabel("Contraseña:")
+        pass_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.pass_input = QtWidgets.QLineEdit()
+        self.pass_input.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.pass_input.setFixedWidth(180)
+        self.pass_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+
+        # Número de referencia
+        ref_label = QtWidgets.QLabel("Siniestro:")
+        ref_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.ref_input = QtWidgets.QLineEdit()
+        self.ref_input.setFixedWidth(180)
+        self.ref_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+        # Ruta de descarga
+        download_path_label = QtWidgets.QLabel("Ruta de descarga:")
+        download_path_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.download_path_input = QtWidgets.QLineEdit()
+        self.download_path_input.setReadOnly(True)
+        self.download_path_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+        self.download_path_button = QtWidgets.QPushButton("Seleccionar ruta")
+        self.download_path_button.setFixedWidth(120)
+        self.download_path_button.setFixedHeight(40)  # Más alto en eje Y
+        self.download_path_button.setStyleSheet("""
+            QPushButton {
+                background-color: rgb(84, 92, 102);
+                color: white;
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        self.download_path_button.clicked.connect(self.select_download_path)
+
+        # Botón de descarga
+        submit_button = QtWidgets.QPushButton("Descargar")
+        submit_button.setFixedWidth(120)
+        submit_button.setFixedHeight(40)  # Más alto en eje Y
+        submit_button.setStyleSheet("""
+            QPushButton {
+                background-color: rgb(84, 92, 102);
+                color: white;
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        submit_button.clicked.connect(self.download_files)
+
+        # Botón de retorno con borde
+        return_button = QtWidgets.QPushButton()
+        return_button.setIcon(QtGui.QIcon("resources/return_icon.png"))  
+        return_button.setFixedSize(30, 30)
+        return_button.setStyleSheet("""
+            QPushButton {
+                background-color: transparent;
+                border: 2px solid rgb(84, 92, 102);
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        return_button.clicked.connect(self.return_to_main)
+
+        # Organizar los elementos
+        layout.addWidget(title_label, alignment=QtCore.Qt.AlignCenter)
+        
+        input_layout = QtWidgets.QFormLayout()
+        input_layout.addRow(user_label, self.user_input)
+        input_layout.addRow(pass_label, self.pass_input)
+        input_layout.addRow(ref_label, self.ref_input)
+        input_layout.addRow(download_path_label, self.download_path_input)
+        input_layout.addRow("", self.download_path_button)
+
+        layout.addLayout(input_layout)
+        layout.addWidget(submit_button, alignment=QtCore.Qt.AlignCenter)
+        layout.addWidget(return_button, alignment=QtCore.Qt.AlignRight | QtCore.Qt.AlignBottom)
+
+        self.setLayout(layout)
+
+    def download_files(self):
+        # Verificar si todos los campos están completos
+        if not self.user_input.text() or not self.pass_input.text() or not self.ref_input.text() or not self.download_path_input.text():
+            QtWidgets.QMessageBox.warning(self, "Error", "Por favor, rellene todos los campos antes de continuar.")
+            return
+
+        # Obtener los valores de entrada
+        usuario = self.user_input.text()
+        contraseña = self.pass_input.text()
+        siniestro = self.ref_input.text()
+        ruta_descarga = self.download_path_input.text()
+
+        # Llamar a la función de descarga de mutua_auto.py y capturar el código de retorno
+        try:
+            resultado = allianz_auto.allianz_document_download(usuario, contraseña, siniestro, ruta_descarga)
+            mensaje_error = get_error_message(resultado)
+
+            # Mostrar el mensaje de error en una ventana emergente
+            if resultado == 200:
+                QtWidgets.QMessageBox.information(self, "Éxito", mensaje_error)
+            else:
+                QtWidgets.QMessageBox.warning(self, "Error", mensaje_error)
+                
+        except Exception as e:
+            QtWidgets.QMessageBox.critical(self, "Error", f"Ha ocurrido un error inesperado: {str(e)}")
+
+    def return_to_main(self):
+        self.main_screen = MainUI()
+        self.main_screen.show()
+        self.close()
+
+    def select_download_path(self):
+        path = QtWidgets.QFileDialog.getExistingDirectory(self, "Seleccionar carpeta de descarga")
+        if path:
+            self.download_path_input.setText(path)
+
+class BBVAScreen(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Descargas de BBVA")
+        self.setGeometry(100, 100, 600, 450)
+        self.setStyleSheet("background-color: white; font-family: 'Sans Serif';")
+        self.initUI()
+
+    def initUI(self):
+        layout = QtWidgets.QVBoxLayout()
+
+        # Título
+        title_label = QtWidgets.QLabel("BBVA")
+        title_label.setAlignment(QtCore.Qt.AlignCenter)
+        title_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 18px; font-weight: bold;")
+
+        # Inputs y etiquetas
+        user_label = QtWidgets.QLabel("Usuario:")
+        user_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.user_input = QtWidgets.QLineEdit()
+        self.user_input.setFixedWidth(180)
+        self.user_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+        pass_label = QtWidgets.QLabel("Contraseña:")
+        pass_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.pass_input = QtWidgets.QLineEdit()
+        self.pass_input.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.pass_input.setFixedWidth(180)
+        self.pass_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+
+        # Número de referencia
+        ref_label = QtWidgets.QLabel("Siniestro:")
+        ref_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.ref_input = QtWidgets.QLineEdit()
+        self.ref_input.setFixedWidth(180)
+        self.ref_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+        # Ruta de descarga
+        download_path_label = QtWidgets.QLabel("Ruta de descarga:")
+        download_path_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.download_path_input = QtWidgets.QLineEdit()
+        self.download_path_input.setReadOnly(True)
+        self.download_path_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+        self.download_path_button = QtWidgets.QPushButton("Seleccionar ruta")
+        self.download_path_button.setFixedWidth(120)
+        self.download_path_button.setFixedHeight(40)  # Más alto en eje Y
+        self.download_path_button.setStyleSheet("""
+            QPushButton {
+                background-color: rgb(84, 92, 102);
+                color: white;
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        self.download_path_button.clicked.connect(self.select_download_path)
+
+        # Botón de descarga
+        submit_button = QtWidgets.QPushButton("Descargar")
+        submit_button.setFixedWidth(120)
+        submit_button.setFixedHeight(40)  # Más alto en eje Y
+        submit_button.setStyleSheet("""
+            QPushButton {
+                background-color: rgb(84, 92, 102);
+                color: white;
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        submit_button.clicked.connect(self.download_files)
+
+        # Botón de retorno con borde
+        return_button = QtWidgets.QPushButton()
+        return_button.setIcon(QtGui.QIcon("resources/return_icon.png"))  
+        return_button.setFixedSize(30, 30)
+        return_button.setStyleSheet("""
+            QPushButton {
+                background-color: transparent;
+                border: 2px solid rgb(84, 92, 102);
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        return_button.clicked.connect(self.return_to_main)
+
+        # Organizar los elementos
+        layout.addWidget(title_label, alignment=QtCore.Qt.AlignCenter)
+        
+        input_layout = QtWidgets.QFormLayout()
+        input_layout.addRow(user_label, self.user_input)
+        input_layout.addRow(pass_label, self.pass_input)
+        input_layout.addRow(ref_label, self.ref_input)
+        input_layout.addRow(download_path_label, self.download_path_input)
+        input_layout.addRow("", self.download_path_button)
+
+        layout.addLayout(input_layout)
+        layout.addWidget(submit_button, alignment=QtCore.Qt.AlignCenter)
+        layout.addWidget(return_button, alignment=QtCore.Qt.AlignRight | QtCore.Qt.AlignBottom)
+
+        self.setLayout(layout)
+
+    def download_files(self):
+        # Verificar si todos los campos están completos
+        if not self.user_input.text() or not self.pass_input.text() or not self.ref_input.text() or not self.download_path_input.text():
+            QtWidgets.QMessageBox.warning(self, "Error", "Por favor, rellene todos los campos antes de continuar.")
+            return
+
+        # Obtener los valores de entrada
+        usuario = self.user_input.text()
+        contraseña = self.pass_input.text()
+        siniestro = self.ref_input.text()
+        ruta_descarga = self.download_path_input.text()
+
+        # Llamar a la función de descarga de mutua_auto.py y capturar el código de retorno
+        try:
+            resultado = bbva_auto.bbva_document_download(usuario, contraseña, siniestro, ruta_descarga)
+            mensaje_error = get_error_message(resultado)
+
+            # Mostrar el mensaje de error en una ventana emergente
+            if resultado == 200:
+                QtWidgets.QMessageBox.information(self, "Éxito", mensaje_error)
+            else:
+                QtWidgets.QMessageBox.warning(self, "Error", mensaje_error)
+                
+        except Exception as e:
+            QtWidgets.QMessageBox.critical(self, "Error", f"Ha ocurrido un error inesperado: {str(e)}")
+
+    def return_to_main(self):
+        self.main_screen = MainUI()
+        self.main_screen.show()
+        self.close()
+
+    def select_download_path(self):
+        path = QtWidgets.QFileDialog.getExistingDirectory(self, "Seleccionar carpeta de descarga")
+        if path:
+            self.download_path_input.setText(path)
+
+class PropietariosScreen(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Descargas de Mutua Propietarios")
+        self.setGeometry(100, 100, 600, 450)
+        self.setStyleSheet("background-color: white; font-family: 'Sans Serif';")
+        self.initUI()
+
+    def initUI(self):
+        layout = QtWidgets.QVBoxLayout()
+
+        # Título
+        title_label = QtWidgets.QLabel("Mutua Propietarios")
+        title_label.setAlignment(QtCore.Qt.AlignCenter)
+        title_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 18px; font-weight: bold;")
+
+        # Inputs y etiquetas
+        user_label = QtWidgets.QLabel("Usuario:")
+        user_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.user_input = QtWidgets.QLineEdit()
+        self.user_input.setFixedWidth(180)
+        self.user_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+        pass_label = QtWidgets.QLabel("Contraseña:")
+        pass_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.pass_input = QtWidgets.QLineEdit()
+        self.pass_input.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.pass_input.setFixedWidth(180)
+        self.pass_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+
+        # Año
+        ref_label = QtWidgets.QLabel("Año:")
+        ref_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.ref_input = QtWidgets.QLineEdit()
+        self.ref_input.setFixedWidth(180)
+        self.ref_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+
+        siniestro_label = QtWidgets.QLabel("Siniestro:")
+        siniestro_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.siniestro_input = QtWidgets.QLineEdit()
+        self.siniestro_input.setFixedWidth(180)
+        self.siniestro_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+
+        # Ruta de descarga
+        download_path_label = QtWidgets.QLabel("Ruta de descarga:")
+        download_path_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
+        self.download_path_input = QtWidgets.QLineEdit()
+        self.download_path_input.setReadOnly(True)
+        self.download_path_input.setStyleSheet("background-color: rgb(210, 210, 210);")
+        self.download_path_button = QtWidgets.QPushButton("Seleccionar ruta")
+        self.download_path_button.setFixedWidth(120)
+        self.download_path_button.setFixedHeight(40)  # Más alto en eje Y
+        self.download_path_button.setStyleSheet("""
+            QPushButton {
+                background-color: rgb(84, 92, 102);
+                color: white;
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        self.download_path_button.clicked.connect(self.select_download_path)
+
+        # Botón de descarga
+        submit_button = QtWidgets.QPushButton("Descargar")
+        submit_button.setFixedWidth(120)
+        submit_button.setFixedHeight(40)  # Más alto en eje Y
+        submit_button.setStyleSheet("""
+            QPushButton {
+                background-color: rgb(84, 92, 102);
+                color: white;
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        submit_button.clicked.connect(self.download_files)
+
+        # Botón de retorno con borde
+        return_button = QtWidgets.QPushButton()
+        return_button.setIcon(QtGui.QIcon("resources/return_icon.png"))  
+        return_button.setFixedSize(30, 30)
+        return_button.setStyleSheet("""
+            QPushButton {
+                background-color: transparent;
+                border: 2px solid rgb(84, 92, 102);
+                border-radius: 5px;
+            }
+            QPushButton:pressed {
+                background-color: rgb(77, 170, 212);
+            }
+        """)
+        return_button.clicked.connect(self.return_to_main)
+
+        # Organizar los elementos
+        layout.addWidget(title_label, alignment=QtCore.Qt.AlignCenter)
+        
+        input_layout = QtWidgets.QFormLayout()
+        input_layout.addRow(user_label, self.user_input)
+        input_layout.addRow(pass_label, self.pass_input)
+        
+        input_layout.addRow(ref_label, self.ref_input)
+        input_layout.addRow(siniestro_label, self.siniestro_input)
+        input_layout.addRow(download_path_label, self.download_path_input)
+        input_layout.addRow("", self.download_path_button)
+
+        layout.addLayout(input_layout)
+        layout.addWidget(submit_button, alignment=QtCore.Qt.AlignCenter)
+        layout.addWidget(return_button, alignment=QtCore.Qt.AlignRight | QtCore.Qt.AlignBottom)
+
+        self.setLayout(layout)
+
+    def download_files(self):
+        # Verificar si todos los campos están completos
+        if not self.user_input.text() or not self.pass_input.text() or not self.ref_input.text() or not self.download_path_input.text():
+            QtWidgets.QMessageBox.warning(self, "Error", "Por favor, rellene todos los campos antes de continuar.")
+            return
+
+        # Obtener los valores de entrada
+        usuario = self.user_input.text()
+        contraseña = self.pass_input.text()
+        tipo_busqueda = self.search_type.currentText()
+        numero_busqueda = self.ref_input.text()
+        siniestro = self.siniestro_input.text()
+        ruta_descarga = self.download_path_input.text()
+
+        # Llamar a la función de descarga de mutua_auto.py y capturar el código de retorno
+        try:
+            resultado = mutua_propietarios_auto.mutua_propietarios_descarga(usuario, contraseña, tipo_busqueda, numero_busqueda, siniestro, ruta_descarga)
             mensaje_error = get_error_message(resultado)
 
             # Mostrar el mensaje de error en una ventana emergente
