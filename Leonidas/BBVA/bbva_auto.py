@@ -19,7 +19,7 @@ from pathlib import Path
 def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
     with sync_playwright() as p:
         # Crear navegador y contexto
-        browser = p.chromium.launch(headless=True, downloads_path=dwn_path)
+        browser = p.chromium.launch(headless=True, downloads_path=downloads_path)
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
             java_script_enabled=True,
@@ -77,7 +77,7 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
         def handle_download(download):
             suggested_filename = download.suggested_filename
             if suggested_filename:
-                download_path = os.path.join(dwn_path, suggested_filename)
+                download_path = os.path.join(downloads_path, suggested_filename)
                 download.save_as(download_path)
                 print(f"Downloaded and saved as: {download_path}")
             else:
