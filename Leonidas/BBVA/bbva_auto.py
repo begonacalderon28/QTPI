@@ -5,7 +5,7 @@ import urllib.parse
 import math
 import shutil
 from pathlib import Path
-
+import re
 
 
 
@@ -58,7 +58,7 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
             else:
                 print("Error en el login.")
                 browser.close()
-                #return 411  # Error en el login
+                return 411  # Error en el login
 
         # Navegar e introducir el siniestro
         page.get_by_role("menuitem", name="Aplic. BBVA").click()
@@ -76,6 +76,8 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
 
         def handle_download(download):
             suggested_filename = download.suggested_filename
+            name, ext = os.path.splitext(suggested_filename)
+            suggested_filename = f"{name}_{file_total}{ext}"
             if suggested_filename:
                 download_path = os.path.join(downloads_path, suggested_filename)
                 download.save_as(download_path)
@@ -143,8 +145,15 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
                 id_name = id_name + '_' + str(file_total)
 
                 element.click()
-                page1.wait_for_load_state('networkidle')
-                page1.get_by_role("button", name="Acceso detalle extendido").click()
+                try:
+                    page1.get_by_role("button", name="Acceso detalle extendido").wait_for(timeout=100000)
+                    page1.get_by_role("button", name="Acceso detalle extendido").click()
+                except:
+                    try:
+                        page1.get_by_role("button", name="Acceso detalle extendido").wait_for(timeout=100000)
+                        page1.get_by_role("button", name="Acceso detalle extendido").click()
+                    except:
+                        pass
 
                 page1.wait_for_load_state('networkidle')
                 no_descargable_key = page1.locator("#txtLabelDescrip_label")
@@ -231,6 +240,14 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
 
                 #Delete content of download_2
                 folder = src_path
+                for filename in os.listdir(downloads_path):
+                    if re.match(r"^[0-9a-f\-]{36}$", filename):
+                        file_path = os.path.join(downloads_path, filename)
+                        try:
+                            os.remove(file_path)
+                            print(f"Deleted leftover file: {filename}")
+                        except Exception as e:
+                            print(f"Failed to delete {filename}. Reason: {e}")
                 for filename in os.listdir(folder):
                     file_path = os.path.join(folder, filename)
                     try:
