@@ -121,16 +121,17 @@ def allianz_document_download(usuario,contraseña, siniestro, downloads_path):
             element_selector = f"#{id}"
             element = page1.locator(element_selector)
 
+            if element.is_visible() == False and file_number == 0:
+                browser.close()
+                return 200
 
-            if element.is_visible() == False:
+            elif element.is_visible() == False:
                 block_number = block_number + 1
                 file_number = 0
                 id = 'filaFile_' + str(block_number) +'_'+ str(file_number) 
                 element = page.locator(element_selector)
                 file_number = -1
             
-            elif element.is_visible() == False and file_number ==0:
-                break
 
             else:
                 INVALID_id_name = element.locator('strong').nth(1).text_content()
@@ -262,8 +263,7 @@ def allianz_document_download(usuario,contraseña, siniestro, downloads_path):
 
                 print("Done")
 
-        browser.close()
-        return 200
+        
 
  
 

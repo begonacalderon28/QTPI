@@ -10,7 +10,7 @@ def login_and_download_documents(usuario, contraseña, tipo_busqueda, numero_bus
     try:
         with sync_playwright() as p:
             # Crear el navegador y el contexto
-            browser = p.chromium.launch(headless=False)
+            browser = p.chromium.launch(headless=True)
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
                 java_script_enabled=True,

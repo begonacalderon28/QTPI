@@ -89,7 +89,7 @@ def download_docs_añadidos(page, base_dir):
         return
 
     try:
-        page.wait_for_selector("table#grDocs tbody tr", state="visible", timeout=10000)
+        page.wait_for_selector("table#grDocs tbody tr", state="visible", timeout=100000)
     except Exception as e:
         print("No se encontraron filas en 'table#grDocs tbody tr':", e)
         return
@@ -171,7 +171,7 @@ def run_script(usuario, contrasena, siniestro, download_path):
     browser = None
     context = None
     try:
-        browser = playwright.chromium.launch(headless=False)
+        browser = playwright.chromium.launch(headless=True)
         context = browser.new_context(accept_downloads=True)
         page = context.new_page()
         
