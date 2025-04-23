@@ -166,7 +166,9 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
                 else:
                     pass
 
-                page1.get_by_text("Volver").click()
+                volver_btn = page1.get_by_text("Volver", exact=True)
+                volver_btn.wait_for(timeout=300000)
+                volver_btn.click()
 
                 time.sleep(3)
 
