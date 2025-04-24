@@ -12,8 +12,9 @@ def login_and_download_documents(usuario, contraseña, tipo_busqueda, numero_bus
             # Crear el navegador y el contexto
             browser = p.chromium.launch(headless=True)
             context = browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
                 java_script_enabled=True,
+                
                 accept_downloads=True
             )
             page = context.new_page()
@@ -25,15 +26,18 @@ def login_and_download_documents(usuario, contraseña, tipo_busqueda, numero_bus
 
             # Navegar a la página de inicio
             page.goto("https://www.mutua.es/Expedientes")
-            time.sleep(1)
+            time.sleep(2)
 
             # Completar el formulario de inicio de sesión
             page.fill('input[name="username"]', usuario)
+            time.sleep(3)
             page.fill('input[name="password"]', contraseña)
             page.click('input[id="kc-login"]')
-
+           
             # Esperar a que la página cargue después del inicio de sesión
             page.wait_for_load_state('networkidle')
+
+            
 
             # Verificar si el login fue exitoso
             if page.is_visible('input[id="buscar"]'):
@@ -43,8 +47,10 @@ def login_and_download_documents(usuario, contraseña, tipo_busqueda, numero_bus
                 browser.close()
                 return 411  # Error en el login
 
+          
+
             # Verificar si el tipo de búsqueda es 'Póliza'
-            if tipo_busqueda.lower() != 'póliza':
+            if tipo_busqueda.lower() != 'poliza':
                 print("Tipo de búsqueda no soportado en este momento.")
                 browser.close()
                 return 416  # Tipo de búsqueda no soportado
@@ -211,3 +217,10 @@ def login_and_download_documents(usuario, contraseña, tipo_busqueda, numero_bus
 # Ejemplo de uso (para pruebas, puedes descomentar y ajustar los parámetros)
 # resultado = login_and_download_documents('usuario', 'contraseña', 'Póliza', '44091', '/ruta/de/descarga')
 # print(f"Código de resultado: {resultado}")
+if __name__ == "__main__":
+    usuario = "A0048012"
+    psswd = "2025-Abr"
+    tipo= "poliza"
+    poliza = "5898992"
+    ruta_ds = "Downloads_prueba"
+    login_and_download_documents(usuario, psswd, tipo, poliza, ruta_ds)

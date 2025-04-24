@@ -14,6 +14,13 @@ import re
 #probar con distintos cosas el elif de autodescargable pero hay que dar a un boton
 
 
+from typing import Union           # ← importa Union
+
+def ensure_dir(p: Union[str, Path]) -> Path:
+    """Crea la carpeta si no existe y devuelve Path."""
+    p = Path(p)
+    p.mkdir(parents=True, exist_ok=True)
+    return p
 
 
 def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
@@ -86,7 +93,12 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
                 pass
 
         page1.on("download", handle_download)
-        downloads_cwd = os.getcwd()
+
+        # ── NUEVO: garantiza que existan las carpetas internas ───────────
+        downloads_cwd = Path.cwd()                 # carpeta desde donde corre el EXE
+        ensure_dir(downloads_cwd / "downloads")
+        ensure_dir(downloads_cwd / "download_2")
+        # ─────────────────────────────────────────────────────────────────
 
         src_path = str(downloads_cwd) + '/downloads'
         
@@ -157,7 +169,7 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
 
                 page1.wait_for_load_state('networkidle')
                 no_descargable_key = page1.locator("#txtLabelDescrip_label")
-                time.sleep(2)
+                time.sleep(1)
                 if no_descargable_key.is_visible(): 
                     frame = page1.locator("#textAreaNota")
                     text_content = frame.input_value()
@@ -170,14 +182,14 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
                 volver_btn.wait_for(timeout=300000)
                 volver_btn.click()
 
-                time.sleep(3)
+                time.sleep(1)
 
                 cwd = os.getcwd()
                 src_path_downloads = str(cwd) + '/downloads'
                 for file in os.listdir(src_path_downloads):
                     if file.endswith(".crdownload"):
                         print('File still downloading')
-                        time.sleep(10)
+                        time.sleep(1)
                         log = open('log.txt', 'w')
                         log.write('File still downloading..')
                 
@@ -185,7 +197,7 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
                 for file in os.listdir(src_path_download_2):
                     if file.endswith(".crdownload"):
                         print('File still downloading')
-                        time.sleep(10)
+                        time.sleep(1)
                         log = open('log.txt', 'w')
                         log.write('File still downloading..')
                 
@@ -268,6 +280,9 @@ def bbva_document_download(usuario,contraseña, siniestro, downloads_path):
         return 200
 
 
-            
-
-
+if __name__ == "__main__":
+    user = "P0012104"
+    pswd = "bilma-0014"
+    sns = "605638312"
+    path_des = "des_prueba"
+    bbva_document_download(user,pswd,sns,path_des)

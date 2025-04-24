@@ -2,6 +2,20 @@ from PyQt5 import QtWidgets, QtGui, QtCore
 from error_codes import get_error_message
 from Mutua_occident import occident_auto
 
+
+import os, sys
+
+def resource_path(relative_path):
+        """Obtiene la ruta absoluta al recurso, compatible con PyInstaller."""
+        try:
+            # Cuando la aplicación se ejecuta desde el ejecutable creado con PyInstaller
+            base_path = sys._MEIPASS
+        except Exception:
+            # Cuando se ejecuta en modo de desarrollo
+            base_path = os.path.abspath(".")
+        return os.path.join(base_path, relative_path)
+
+
 class OccidentScreen(QtWidgets.QWidget):
     def __init__(self, return_callback=None):
         super().__init__()
@@ -71,7 +85,7 @@ class OccidentScreen(QtWidgets.QWidget):
         submit_button.clicked.connect(self.download_files)
 
         return_button = QtWidgets.QPushButton()
-        return_button.setIcon(QtGui.QIcon("resources/return_icon.png"))
+        return_button.setIcon(QtGui.QIcon(resource_path("resources/return_icon.png")))
         return_button.setFixedSize(30, 30)
         return_button.setStyleSheet("""
             QPushButton {

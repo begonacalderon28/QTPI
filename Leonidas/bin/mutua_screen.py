@@ -2,6 +2,18 @@ from PyQt5 import QtWidgets, QtGui, QtCore
 from error_codes import get_error_message
 from Mutua import mutua_auto
 
+import os, sys
+
+def resource_path(relative_path):
+        """Obtiene la ruta absoluta al recurso, compatible con PyInstaller."""
+        try:
+            # Cuando la aplicación se ejecuta desde el ejecutable creado con PyInstaller
+            base_path = sys._MEIPASS
+        except Exception:
+            # Cuando se ejecuta en modo de desarrollo
+            base_path = os.path.abspath(".")
+        return os.path.join(base_path, relative_path)
+
 class MutuaScreen(QtWidgets.QWidget):
     def __init__(self, return_callback=None):
         super().__init__()
@@ -34,20 +46,10 @@ class MutuaScreen(QtWidgets.QWidget):
         self.pass_input.setStyleSheet("background-color: rgb(210, 210, 210);")
 
         # Selector de tipo de búsqueda
-        select_label = QtWidgets.QLabel("Seleccione tipo de búsqueda:")
-        select_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
-        self.search_type = QtWidgets.QComboBox()
-        self.search_type.addItems(["Siniestro", "Póliza", "Matrícula"])
-        self.search_type.setFixedWidth(200)
-        self.search_type.setStyleSheet("""
-            QComboBox {
-                background-color: rgb(210, 210, 210);
-                padding: 5px;
-            }
-        """)
+        
 
         # Número de referencia
-        ref_label = QtWidgets.QLabel("Número de referencia:")
+        ref_label = QtWidgets.QLabel("Número de Póliza:")
         ref_label.setStyleSheet("color: rgb(51, 54, 57); font-size: 14px;")
         self.ref_input = QtWidgets.QLineEdit()
         self.ref_input.setFixedWidth(180)
@@ -92,7 +94,7 @@ class MutuaScreen(QtWidgets.QWidget):
 
         # Botón de retorno
         return_button = QtWidgets.QPushButton()
-        return_button.setIcon(QtGui.QIcon("resources/return_icon.png"))
+        return_button.setIcon(QtGui.QIcon(resource_path("resources/return_icon.png")))
         return_button.setFixedSize(30, 30)
         return_button.setStyleSheet("""
             QPushButton {
@@ -111,7 +113,7 @@ class MutuaScreen(QtWidgets.QWidget):
         form_layout = QtWidgets.QFormLayout()
         form_layout.addRow(user_label, self.user_input)
         form_layout.addRow(pass_label, self.pass_input)
-        form_layout.addRow(select_label, self.search_type)
+        
         form_layout.addRow(ref_label, self.ref_input)
         form_layout.addRow(download_path_label, self.download_path_input)
         form_layout.addRow("", self.download_path_button)
@@ -126,15 +128,16 @@ class MutuaScreen(QtWidgets.QWidget):
             QtWidgets.QMessageBox.warning(self, "Error", "Por favor, rellene todos los campos antes de continuar.")
             return
 
-        usuario = self.user_input.text()
-        contraseña = self.pass_input.text()
-        tipo_busqueda = self.search_type.currentText()
-        numero_busqueda = self.ref_input.text()
+        usuario = str(self.user_input.text())
+        psswd = str(self.pass_input.text())
+        tipo_busqueda = "poliza"
+        numero_busqueda = str(self.ref_input.text())
         ruta_descarga = self.download_path_input.text()
 
         try:
+            print(usuario, psswd)
             resultado = mutua_auto.login_and_download_documents(
-                usuario, contraseña, tipo_busqueda, numero_busqueda, ruta_descarga
+                usuario, psswd, tipo_busqueda, numero_busqueda, ruta_descarga
             )
             mensaje_error = get_error_message(resultado)
             if resultado == 200:

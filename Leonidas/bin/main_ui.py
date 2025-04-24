@@ -5,10 +5,23 @@ from bin.bbva_screen import BBVAScreen
 from bin.propietarios_screen import PropietariosScreen
 from bin.occident_screen import OccidentScreen
 
+
+from pathlib import Path
+import sys
+
+# 1)  base de recursos (la misma lógica que en main.py)
+if getattr(sys, 'frozen', False):
+    RES_BASE = Path(sys._MEIPASS)
+else:
+    RES_BASE = Path(__file__).resolve().parent.parent   # carpeta proyecto
+
+
+
+
 class MainUI(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Leonidas - Automatizador de Descargas")
+        self.setWindowTitle("Leonidas - QTPI - Automatizador de Descargas")
         self.setGeometry(100, 100, 600, 450)
         self.setStyleSheet("background-color: white; font-family: 'Sans Serif';")
         self.initUI()
@@ -39,11 +52,20 @@ class MainUI(QtWidgets.QWidget):
         main_layout.addLayout(logo_layout)
         self.setLayout(main_layout)
 
-    def create_logo_button(self, logo_path):
+    def create_logo_button(self, logo_rel_path):
+        """
+        Recibe la ruta relativa dentro de resources/   (ej.: 'resources/mutua-logo.png')
+        Genera el QPushButton con la imagen correcta tanto en desarrollo
+        como dentro del .exe congelado.
+        """
         button = QtWidgets.QPushButton()
         button.setFixedSize(180, 180)
-        button.setIcon(QtGui.QIcon(logo_path))
+
+        # ①  Ruta absoluta al recurso
+        abs_path = RES_BASE / Path(logo_rel_path)
+        button.setIcon(QtGui.QIcon(str(abs_path)))   # ②  pasar str, no Path
         button.setIconSize(QtCore.QSize(160, 160))
+
         button.setStyleSheet("""
             QPushButton {
                 border: 2px solid rgb(84, 92, 102);
@@ -58,6 +80,7 @@ class MainUI(QtWidgets.QWidget):
             }
         """)
         return button
+
 
     def show_mutua_screen(self):
         self.screen = MutuaScreen(return_callback=self.show)

@@ -10,6 +10,13 @@ from pathlib import Path
 import re
 
 
+from typing import Union           # ← importa Union
+
+def ensure_dir(p: Union[str, Path]) -> Path:
+    """Crea la carpeta si no existe y devuelve Path."""
+    p = Path(p)
+    p.mkdir(parents=True, exist_ok=True)
+    return p
 
 
 #CHANGE RETURN VIENDO SI EL LOGIN HA SIDO EXITOSO 
@@ -85,8 +92,16 @@ def allianz_document_download(usuario,contraseña, siniestro, downloads_path):
             else:
                 pass
 
+                
+                
         page1.on("download", handle_download)
-        downloads_cwd = os.getcwd()
+
+        # ── NUEVO: garantiza que existan las carpetas internas ───────────
+        downloads_cwd = Path.cwd()                 # carpeta desde donde corre el EXE
+        ensure_dir(downloads_cwd / "downloads")
+        ensure_dir(downloads_cwd / "download_2")
+        # ─────────────────────────────────────────────────────────────────
+
 
         src_path = str(downloads_cwd) + '/downloads'
         
@@ -267,6 +282,11 @@ def allianz_document_download(usuario,contraseña, siniestro, downloads_path):
 
         
 
- 
+if __name__ == "__main__":
+    user = "P0011324"
+    pswd = "bilma-0014"
+    sns = "876218555"
+    path_des = "des_prueba"
+    allianz_document_download(user,pswd,sns,path_des)
 
 

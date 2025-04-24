@@ -1,3 +1,5 @@
 PyQt5
-playwright
+playwright==1.43
+pyinstaller==6
+
 #run playwright install

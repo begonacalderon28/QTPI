@@ -1,0 +1,32 @@
+Vale ahora necesito el codigo de pyinstaller para convertirlo en onedir, no console, el archivo principal es main.py, pero necesito de todos los scripts y resources que estan en las diferentes carpetas. PS C:\Users\asier\Qtpi\QTPI\Leonidas> dir
+
+
+    Directory: C:\Users\asier\Qtpi\QTPI\Leonidas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/22/2025   5:22 PM                Allianz
+d-----         4/22/2025   5:13 PM                BBVA
+d-----         4/22/2025   3:06 PM                bin
+d-----         4/22/2025   5:22 PM                Mutua
+d-----         4/22/2025   5:23 PM                Mutua_occident
+d-----         4/21/2025   6:37 PM                Mutua_propietarios
+d-----         4/21/2025   6:37 PM                resources
+d-----         4/22/2025   3:06 PM                __pycache__
+-a----         4/22/2025   3:06 PM          10244 .DS_Store
+-a----         4/21/2025   6:37 PM            488 error_codes.py
+-a----         4/21/2025   6:37 PM            270 main.py
+-a----         4/21/2025   6:37 PM            156 README.md
+-a----         4/21/2025   6:37 PM             42 requirements.txt , basicamenete necesito todo dentro. Para esto me gustaria que me dieras un comando de pyinstaller completo que pueda copiar y pegar para conseguir mi objetivo. luego el logo 
+
+
+
+
+
+
+
+
+
+
+Perfecto esto es exactamente lo que buscaba. Entonces con todo esto ya podriamos dar por finalizado el proyecto, ahora lo que nos queda es convertirlo en un ejecutable. Estaba pensadno en utilizar pyinstaller con su funcion de onedir para que sea mas rapida la ejecucion. El problema aqui viene con playwright, hay que diseñar algo para que el cliente final no se tenga que preocupar en abrir un terminal e instalar playwright. Osea tu piensa que esta aplicacion va dirigida a oficinistas, asique de programacion e informatica saben mas bien poco, asique hay que dejarlo ya todo mascado. Entonces nose como lo preferiras hacer si descargar los binarios de playwright o como hacer para meterlo en el exe+directorio. Lo que tambien es cierto es que la primera vez que instalas playwright en un ordenador es que te pide descargar chromium, y luego si encuentra alguna actualizacion te obliga a hacer playwright install, osea estos son los detalles que tenemos que tener en cuenta y buscarles solucion. porque no puedo emepezar a distribuir la aplicacion y no saber si dentro de unas semanas playwright va a empezar a dar este tipo de fallos.  Actualmente esta es la organizacion de mi proyecto, donde absolutamente todas las carpetas y archivos son necesarios, ya que incluyen o codigo o resources como fotos etc. 

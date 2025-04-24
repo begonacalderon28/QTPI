@@ -80,6 +80,10 @@ def mutua_propietarios_descarga(usuario: str,
             # 2) Navegar hasta la sección de documentos
             try:
                 page.locator("iframe[name=\"cuerpo\"]").content_frame.get_by_role("link", name=" Encargos").click()
+            except Exception as e:
+                browser.close()
+                return 411
+            try:
                 page.locator("iframe[name=\"cuerpo\"]").content_frame.locator("#iFrameEncargos").content_frame.get_by_label("Varios").check()
                 page.locator("iframe[name=\"cuerpo\"]").content_frame.locator("#iFrameEncargos").content_frame.get_by_label("Año:").click()
                 page.locator("iframe[name=\"cuerpo\"]").content_frame.locator("#iFrameEncargos").content_frame.get_by_label("Año:").fill(anio)
@@ -170,7 +174,7 @@ def mutua_propietarios_descarga(usuario: str,
 if __name__ == "__main__":
     codigo = mutua_propietarios_descarga(
         usuario="AB_SCGMABO",
-        contrasena="Eneroinvierno2025.*",
+        contrasena="Tiempo001.",
         anio="2024",
         siniestro="4041692",
         download_path=r"C:\QTPI\Leonidas\Mutua_propietarios\descargas-test2"
